@@ -1,0 +1,44 @@
+﻿flowchart TD
+    classDef ideflor fill:#D5F5E3,stroke:#27AE60,stroke-width:2px,color:#1E8449
+    classDef documento fill:#E8DAEF,stroke:#8E44AD,stroke-width:2px,color:#6C3483
+    classDef decisao fill:#FFF9C4,stroke:#F1C40F,stroke-width:2px,color:#5D4037
+    classDef rejeicao fill:#FADBD8,stroke:#E74C3C,stroke-width:2px,color:#922B21
+    classDef entrada fill:#FFFFFF,stroke:#2C3E50,stroke-width:2px,color:#2C3E50
+
+    IN["📥 Nota Técnica DGMUC favorável"]:::entrada
+    --> DGB["🌳 DGB - Compatibilidade Ambiental<br/><b>Prazo: 15d úteis</b>"]:::ideflor
+
+    DGB --> D1["✅ Potencial de conservação e integridade da vegetação nativa"]:::ideflor
+    D1 --> D2["🔄 Relevância para conectividade de habitats e serviços ecossistêmicos"]:::ideflor
+    D2 --> D3["🔬 Pertinência para programas de conservação e pesquisa"]:::ideflor
+    D3 --> D4["⚠️ Compatibilidade de passivos ambientais com objetivos da UCES"]:::ideflor
+    D4 --> D5["📐 Existência de APP e RL conforme CAR"]:::ideflor
+
+    D5 --> PARECER_DGB{"Parecer DGB"}:::decisao
+
+    PARECER_DGB --> |Favorável| PROC
+    PARECER_DGB --> |Com condicionantes| COND["📝 Condicionantes incluídas na CH e na escritura"]:::ideflor
+    COND --> PROC
+
+    PROC["⚖️ Procuradoria - Análise Jurídica<br/><b>Prazo: 10d úteis</b>"]:::ideflor
+    --> P1["📋 Regularidade formal do processo"]:::ideflor
+    P1 --> P2["📜 Validade e suficiência da CACLG"]:::ideflor
+    P2 --> P3["🔍 Adequação da modalidade à legislação"]:::ideflor
+    P3 --> P4["📝 Condicionantes e ressalvas"]:::ideflor
+    P4 --> P5["🏛️ Competência do Estado para receber"]:::ideflor
+    P5 --> P6["📄 Minuta de despacho de deferimento ou indeferimento"]:::ideflor
+
+    P6 --> PRES["🏛️ Presidência - Deliberação Final<br/><b>Prazo: 5d úteis</b>"]:::ideflor
+
+    PRES --> DELIB{"Decisão"}:::decisao
+
+    DELIB --> |✅ Deferir com/sem condicionantes| EMIT["📜 Emissão da CH<br/><b>5d úteis</b>"]:::documento
+    DELIB --> |❌ Indeferir fundamentadamente| INDEF["❌ Notificação ao requerente e ao ITERPA"]:::rejeicao
+    DELIB --> |🔄 Diligências complementares| DILIG["🔄 Retorno ao passo pertinente"]:::decisao
+
+    EMIT --> CHOK["✅ CERTIDÃO DE HABILITAÇÃO<br/>Validade: 2 anos (+2 prorrogável)<br/>Condição necessária para Fase III"]:::documento
+
+    INDEF --> REC["📝 Recurso Administrativo<br/><b>15d úteis</b> - Efeito suspensivo<br/>Decisões compartilhadas: ITERPA + IDEFLOR"]:::rejeicao
+
+    style CHOK stroke-width:3px
+    style DILIG stroke:#E67E22,stroke-width:2px

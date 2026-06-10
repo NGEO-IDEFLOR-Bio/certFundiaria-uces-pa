@@ -1,0 +1,26 @@
+﻿flowchart TD
+    classDef decisao fill:#FFF9C4,stroke:#F1C40F,stroke-width:2px,color:#5D4037
+    classDef rejeicao fill:#FADBD8,stroke:#E74C3C,stroke-width:2px,color:#922B21
+    classDef iterpa fill:#D6EAF8,stroke:#2980B9,stroke-width:2px,color:#1B4F72
+    classDef ideflor fill:#D5F5E3,stroke:#27AE60,stroke-width:2px,color:#1E8449
+    classDef inicio fill:#FFFFFF,stroke:#2C3E50,stroke-width:2px,color:#2C3E50
+
+    INDEF["❌ Indeferimento (Fase I ou II)"]:::rejeicao
+    --> REC["📝 Recurso Administrativo<br/><b>Prazo: 15d úteis</b>"]:::inicio
+
+    REC --> DIR["🏛️ Diretor-Presidente do órgão responsável"]:::decisao
+
+    DIR --> EFEITO["⚠️ Efeito suspensivo<br/><i>Regra geral</i><br/>Salvo decisão em contrário no interesse público"]:::decisao
+
+    EFEITO --> COMP{"Competências compartilhadas?"}:::decisao
+
+    COMP --> |Sim| CONJ["🏛️ Decisão Conjunta<br/>Diretores-Presidentes<br/>ITERPA + IDEFLOR-Bio<br/><i>Art. 28, §2º</i>"]:::iterpa
+    COMP --> |Não| UNI["🏛️ Decisão Unilateral do<br/>Diretor-Presidente do órgão responsável"]:::ideflor
+
+    CONJ --> RESULT{"Resultado"}:::decisao
+    UNI --> RESULT
+
+    RESULT --> |Deferimento| PROSSEGUIR["✅ Prosseguimento do processo"]:::ideflor
+    RESULT --> |Indeferimento| ARQUIVAR["📁 Arquivamento do processo"]:::rejeicao
+
+    style INDEF stroke-width:2px

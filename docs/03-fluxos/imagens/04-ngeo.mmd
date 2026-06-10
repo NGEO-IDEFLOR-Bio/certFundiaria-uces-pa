@@ -1,0 +1,27 @@
+﻿flowchart TD
+    classDef ideflor fill:#D5F5E3,stroke:#27AE60,stroke-width:2px,color:#1E8449
+    classDef decisao fill:#FFF9C4,stroke:#F1C40F,stroke-width:2px,color:#5D4037
+    classDef entrada fill:#FFFFFF,stroke:#2C3E50,stroke-width:2px,color:#2C3E50
+
+    IN["📥 Processo recebido do ITERPA"]:::entrada
+    --> NGEO["🛰️ NGEO - Monitoramento Remoto<br/><b>Prazo: 20d úteis (+10 prorrogáveis)</b>"]:::ideflor
+
+    NGEO --> V1["✅ Confirmar localização e limites<br/>confrontando com georreferenciamento ITERPA"]:::ideflor
+    V1 --> V2["🌿 Verificar cobertura vegetal, estado de conservação,<br/>cursos d'água e nascentes"]:::ideflor
+    V2 --> V3["🏠 Identificar edificações, benfeitorias, estradas e infraestrutura"]:::ideflor
+    V3 --> V4["⚠️ Verificar passivos ambientais via sensoriamento remoto"]:::ideflor
+    V4 --> V5["🔎 Avaliar compatibilidade com os objetivos da UCES receptora"]:::ideflor
+
+    V5 --> EXTRA{"Verificações adicionais"}:::decisao
+
+    EXTRA --> |Requerido| PG["📊 Sobreposição com Plano de Gestão da UC"]:::ideflor
+    EXTRA --> |Requerido| CF["🌲 Vocação para Compensação Florestal"]:::ideflor
+
+    PG --> REL
+    CF --> REL
+    EXTRA --> |Não requerido| REL
+
+    REL["📝 Relatório Técnico do NGEO<br/>Recomendação: SIM ou NÃO"]:::ideflor
+    --> DGMUC(("➡️ Encaminha à DGMUC")):::entrada
+
+    style DGMUC stroke:#27AE60,stroke-width:3px,color:#1E8449
