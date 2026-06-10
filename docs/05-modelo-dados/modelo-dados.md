@@ -21,7 +21,7 @@ erDiagram
     CERTIDAO_CONCLUSAO ||--o| CREDITO : gera
     CREDITO ||--o{ UTILIZACAO : possui
     PROCESSO ||--o{ PRAZO : controla
-    PROCESSO ||--o{ LOG Evento : registra
+    PROCESSO ||--o{ LOG_EVENTO : registra
 ```
 
 ---
@@ -428,6 +428,7 @@ stateDiagram-v2
 
     concluido --> [*]
     indeferido --> [*]
+```
 
 ---
 
