@@ -57,56 +57,12 @@
 
 ## Linha do Tempo Estimada (Melhor Cenário)
 
-> **Dica:** No GitHub, use o botão de tela cheia (fullscreen) do diagrama para visualização completa.
+### Diagrama de Gantt - Prazos por Fase
 
-```mermaid
-gantt
-    title Prazos por Fase - Estimativa Melhor Cenário (dias úteis)
-    dateFormat  X
-    axisFormat  %s dias
+![Gantt Prazos](imagens/01-gantt-prazos.png)
 
-    section Fase I - ITERPA
-    Análise Formal da Documentação       :f1a, 0, 10
-    Análise Técnica do Georreferenciamento :f1b, 10, 30
-    Parecer Jurídico (Procuradoria ITERPA) :f1c, 30, 45
-    Emissão da CACLG                      :f1d, 45, 50
+### Linha do Tempo - Marcos por Fase
 
-    section Fase II - IDEFLOR-Bio
-    Análise de Pertinência (DGMUC)                     :f2a, 50, 60
-    Checagem e Monitoramento Remoto (NGEO)             :f2b, 60, 80
-    Análise de Compatibilidade Ambiental (DGB)          :f2c, 80, 95
-    Parecer Jurídico (Procuradoria IDEFLOR-Bio)         :f2d, 95, 105
-    Deliberação da Presidência                          :f2e, 105, 110
-    Emissão da Certidão de Habilitação                 :f2f, 110, 115
-
-    section Fase III - Transferência
-    Elaboração da Minuta de Escritura (ITERPA)          :f3a, 115, 130
-    Registro da Escritura no Cartório (30d corridos)   :f3b, 130, 160
-    Emissão da Certidão de Conclusão (IDEFLOR-Bio)     :f3c, 160, 170
-```
-
-```mermaid
-timeline
-    title Linha do Tempo - Marcos por Fase
-    section Fase I - ITERPA (~50d úteis)
-        Dia 0 : Requerimento protocolado
-        Dia 10 : Análise formal concluída
-        Dia 30 : Georreferenciamento concluído
-        Dia 45 : Parecer jurídico emitido
-        Dia 50 : CACLG emitida → Remessa ao IDEFLOR-Bio
-    section Fase II - IDEFLOR-Bio (~65d úteis)
-        Dia 50 : Distribuição interna
-        Dia 60 : DGMUC - Nota técnica
-        Dia 80 : NGEO - Relatório remoto
-        Dia 95 : DGB - Parecer ambiental
-        Dia 105 : Procuradoria - Parecer jurídico
-        Dia 110 : Presidência - Deliberação
-        Dia 115 : CH emitida
-    section Fase III - Transferência (~55d corridos)
-        Dia 115 : Requerimento do Doador
-        Dia 130 : Minuta de escritura pronta
-        Dia 160 : Escritura registrada
-        Dia 170 : Certidão de Conclusão emitida ✅
-```
+![Timeline Marcos](imagens/02-timeline-marcos.png)
 
 > **Total estimado:** ~50 dias úteis (Fase I) + ~65 dias úteis (Fase II) + ~55 dias corridos (Fase III) = **aproximadamente 14-16 semanas** no melhor cenário, sem pendências ou prorrogações.
