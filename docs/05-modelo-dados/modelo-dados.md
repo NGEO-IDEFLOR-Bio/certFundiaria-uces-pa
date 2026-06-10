@@ -434,52 +434,118 @@ stateDiagram-v2
 
 ## 15. Enums / Domínios
 
-```
-MODALIDADE_INCORPORACAO = [
-  "doacao_voluntaria",
-  "doacao_antecipada",
-  "compensacao_reserva_legal",
-  "compensacao_florestal",
-  "medidas_compensatorias_ambientais"
-]
+### MODALIDADE_INCORPORACAO
 
-FASE_PROCESSO = ["I", "II", "III"]
+| Valor | Descrição |
+|-------|-----------|
+| `doacao_voluntaria` | Doação voluntária |
+| `doacao_antecipada` | Doação antecipada |
+| `compensacao_reserva_legal` | Compensação de Reserva Legal |
+| `compensacao_florestal` | Compensação florestal |
+| `medidas_compensatorias_ambientais` | Cumprimento de medidas compensatórias ambientais |
 
-STATUS_PROCESSO = [
-  "requerido",
-  "em_analise_formal",
-  "em_analise_georreferenciamento",
-  "em_parecer_juridico_iterpa",
-  "caclg_emitida",
-  "em_analise_ngeo",
-  "em_analise_dgmuc",
-  "em_analise_dgb",
-  "em_analise_juridica_ideflor",
-  "em_deliberacao_presidencia",
-  "ch_emitida",
-  "em_elaboracao_minuta",
-  "escritura_lavrada",
-  "escritura_registrada",
-  "concluido",
-  "indeferido",
-  "arquivado"
-]
+### FASE_PROCESSO
 
-TIPO_PARECER = ["tecnico", "juridico", "nota_tecnica", "despacho"]
+| Valor | Descrição |
+|-------|-----------|
+| `I` | Fase I - Análise Fundiária (ITERPA) |
+| `II` | Fase II - Análise e Habilitação (IDEFLOR-Bio) |
+| `III` | Fase III - Transferência de Domínio |
 
-RESULTADO_PARECER = ["favoravel", "favoravel_com_ressalvas", "desfavoravel", "diligencia"]
+### STATUS_PROCESSO
 
-RESULTADO_DGMUC = ["pertinencia", "pertinencia_redirecionamento", "impertinencia"]
+| Valor | Fase | Descrição |
+|-------|------|-----------|
+| `requerido` | I | Processo protocolado |
+| `em_analise_formal` | I | Análise formal da documentação |
+| `em_analise_georreferenciamento` | I | Análise técnica do georreferenciamento |
+| `em_parecer_juridico_iterpa` | I | Parecer jurídico ITERPA |
+| `caclg_emitida` | I→II | CACLG emitida, aguardando remessa |
+| `em_analise_ngeo` | II | Análise no NGEO |
+| `em_analise_dgmuc` | II | Análise de pertinência na DGMUC |
+| `em_analise_dgb` | II | Análise de compatibilidade na DGB |
+| `em_analise_juridica_ideflor` | II | Parecer jurídico IDEFLOR-Bio |
+| `em_deliberacao_presidencia` | II | Deliberação da Presidência |
+| `ch_emitida` | II→III | CH emitida |
+| `em_elaboracao_minuta` | III | Elaboração de minuta de escritura |
+| `escritura_lavrada` | III | Escritura lavrada |
+| `escritura_registrada` | III | Escritura registrada |
+| `concluido` | III | Processo concluído |
+| `indeferido` | - | Processo indeferido |
+| `arquivado` | - | Processo arquivado |
 
-STATUS_CACLG = ["em_analise", "emitida", "vencida", "cancelada"]
+### TIPO_PARECER
 
-STATUS_CH = ["em_analise", "emitida", "vencida", "prorrogada", "cancelada"]
+| Valor | Descrição |
+|-------|-----------|
+| `tecnico` | Parecer técnico |
+| `juridico` | Parecer jurídico |
+| `nota_tecnica` | Nota técnica |
+| `despacho` | Despacho |
 
-STATUS_ESCRITURA = ["minuta", "lavrada", "registrada"]
+### RESULTADO_PARECER
 
-CAR_STATUS = ["ativo", "irregular", "inexistente"]
+| Valor | Descrição |
+|-------|-----------|
+| `favoravel` | Favorável |
+| `favoravel_com_ressalvas` | Favorável com ressalvas |
+| `desfavoravel` | Desfavorável |
+| `diligencia` | Determinação de diligências complementares |
 
-TIPO_PESSOA = ["fisica", "juridica"]
+### RESULTADO_DGMUC
 
-QUALIFICACAO_DOADOR = ["doador", "beneficiario", "doador_beneficiario"]
-```
+| Valor | Descrição |
+|-------|-----------|
+| `pertinencia` | Pertinência da incorporação |
+| `pertinencia_redirecionamento` | Pertinência com redirecionamento a outra UCES |
+| `impertinencia` | Impertinência da incorporação |
+
+### STATUS_CACLG
+
+| Valor | Descrição |
+|-------|-----------|
+| `em_analise` | Em análise pelo ITERPA |
+| `emitida` | CACLG emitida |
+| `vencida` | CACLG vencida |
+| `cancelada` | CACLG cancelada |
+
+### STATUS_CH
+
+| Valor | Descrição |
+|-------|-----------|
+| `em_analise` | Em análise pelo IDEFLOR-Bio |
+| `emitida` | CH emitida |
+| `vencida` | CH vencida |
+| `prorrogada` | CH prorrogada |
+| `cancelada` | CH cancelada |
+
+### STATUS_ESCRITURA
+
+| Valor | Descrição |
+|-------|-----------|
+| `minuta` | Minuta elaborada |
+| `lavrada` | Escritura lavrada |
+| `registrada` | Escritura registrada |
+
+### CAR_STATUS
+
+| Valor | Descrição |
+|-------|-----------|
+| `ativo` | CAR ativo e regular no SICAR |
+| `irregular` | CAR irregular |
+| `inexistente` | CAR inexistente |
+
+### TIPO_PESSOA
+
+| Valor | Descrição |
+|-------|-----------|
+| `fisica` | Pessoa física |
+| `juridica` | Pessoa jurídica |
+
+### QUALIFICACAO_DOADOR
+
+| Valor | Descrição |
+|-------|-----------|
+| `doador` | Doador |
+| `beneficiario` | Beneficiário |
+| `doador_beneficiario` | Doador Beneficiário |
