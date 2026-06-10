@@ -382,7 +382,7 @@ classDiagram
 ## 7. Diagrama do Fluxo de Certidões
 
 ```mermaid
-flowchart LR
+flowchart TD
     classDef iterpa fill:#D6EAF8,stroke:#2980B9,stroke-width:3px,color:#1B4F72
     classDef ideflor fill:#D5F5E3,stroke:#27AE60,stroke-width:3px,color:#1E8449
     classDef fase3 fill:#FDEBD0,stroke:#E67E22,stroke-width:3px,color:#935116

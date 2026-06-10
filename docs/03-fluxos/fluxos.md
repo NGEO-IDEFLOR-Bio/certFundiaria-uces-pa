@@ -9,7 +9,7 @@
 O fluxo principal e **estritamente sequencial** em 3 fases:
 
 ```mermaid
-flowchart LR
+flowchart TD
     classDef iterpa fill:#D6EAF8,stroke:#2980B9,stroke-width:3px,color:#1B4F72
     classDef ideflor fill:#D5F5E3,stroke:#27AE60,stroke-width:3px,color:#1E8449
     classDef fase3 fill:#FDEBD0,stroke:#E67E22,stroke-width:3px,color:#935116
@@ -17,10 +17,10 @@ flowchart LR
 
     F1["<b>FASE I</b><br/>ITERPA<br/>Análise Fundiária"]:::iterpa
     --> |Certidão CACLG| C1(("📜 CACLG")):::cert
-    --> F2["<b>FASE II</b><br/>IDEFLOR-Bio<br/>Análise e Habilitação"]:::ideflor
-    --> |Certidão de Habilitação| C2(("📜 CH")):::cert
-    --> F3["<b>FASE III</b><br/>ITERPA + IDEFLOR-Bio<br/>Transferência de Domínio"]:::fase3
-    --> |Certidão de Conclusão| C3(("📜 CCI")):::cert
+    C1 --> F2["<b>FASE II</b><br/>IDEFLOR-Bio<br/>Análise e Habilitação"]:::ideflor
+    F2 --> |Certidão de Habilitação| C2(("📜 CH")):::cert
+    C2 --> F3["<b>FASE III</b><br/>ITERPA + IDEFLOR-Bio<br/>Transferência de Domínio"]:::fase3
+    F3 --> |Certidão de Conclusão| C3(("📜 CCI")):::cert
 
     style C1 stroke-width:4px
     style C2 stroke-width:4px
@@ -381,36 +381,46 @@ flowchart TD
 ## 7. Impedimentos à Incorporação (Art. 6º)
 
 ```mermaid
-flowchart LR
+flowchart TD
     classDef bloqueio fill:#FADBD8,stroke:#C0392B,stroke-width:2px,color:#922B21
     classDef exececao fill:#FEF9E7,stroke:#F4D03F,stroke-width:2px,color:#7D6608
     classDef check fill:#D6EAF8,stroke:#2980B9,stroke-width:2px,color:#1B4F72
+    classDef ok fill:#D5F5E3,stroke:#27AE60,stroke-width:2px,color:#1E8449
+    classDef titulo fill:#FFFFFF,stroke:#2C3E50,stroke-width:3px,color:#2C3E50
 
-    IMOVEL["🏠 Imóvel Rural"]:::check
-    --> V1{"Pendências na<br/>cadeia dominial?"}:::check
-    IMOVEL --> V2{"Litígio judicial<br/>ou administrativo?"}:::check
-    IMOVEL --> V3{"Passivos ambientais<br/>consolidados?"}:::check
-    IMOVEL --> V4{"Sobreposição com<br/>propriedades certificadas<br/>ou áreas de comunidades?"}:::check
-    IMOVEL --> V5{"CAR inativo<br/>ou irregular?"}:::check
-    IMOVEL --> V6{"Área inferior ao<br/>módulo fiscal?"}:::check
-    IMOVEL --> V7{"Edificações incompatíveis<br/>com UCES?"}:::check
+    TITULO["🚫 IMPEDIMENTOS À INCORPORAÇÃO<br/><b>Art. 6º da IN Conjunta</b>"]:::titulo
 
-    V1 --> |Sim| B1["🚫 VEDADO<br/><b>Salvo sentença<br/>transitada em julgado</b>"]:::bloqueio
-    V2 --> |Sim| B2["🚫 VEDADO<br/><b>Salvo decisão<br/>administrativa definitiva</b>"]:::bloqueio
+    TITULO --> V1
+
+    V1{"1. Pendências na<br/>cadeia dominial?"}:::check
+    V1 --> |Sim| B1["🚫 VEDADO<br/><b>Salvo sentença</b><br/><b>transitada em julgado</b>"]:::bloqueio
+    V1 --> |Não| OK1["✅ Passou"]:::ok
+
+    OK1 --> V2{"2. Litígio judicial<br/>ou administrativo?"}:::check
+    V2 --> |Sim| B2["🚫 VEDADO<br/><b>Salvo decisão</b><br/><b>administrativa definitiva</b>"]:::bloqueio
+    V2 --> |Não| OK2["✅ Passou"]:::ok
+
+    OK2 --> V3{"3. Passivos ambientais<br/>consolidados incompatíveis?"}:::check
     V3 --> |Sim| B3["🚫 VEDADO<br/>Incompatível com<br/>objetivos da UCES"]:::bloqueio
-    V4 --> |Sim| B4["🚫 VEDADO"]:::bloqueio
+    V3 --> |Não| OK3["✅ Passou"]:::ok
+
+    OK3 --> V4{"4. Sobreposição com<br/>propriedades certificadas<br/>ou áreas de comunidades?"}:::check
+    V4 --> |Sim| B4["🚫 VEDADO<br/>Quilombolas, indígenas<br/>ou tradicionais"]:::bloqueio
+    V4 --> |Não| OK4["✅ Passou"]:::ok
+
+    OK4 --> V5{"5. CAR inativo<br/>ou irregular no SICAR?"}:::check
     V5 --> |Sim| B5["🚫 VEDADO<br/>CAR deve estar ativo<br/>e regular no SICAR"]:::bloqueio
-    V6 --> |Sim| E1["⚠️ VEDADO<br/><b>Salvo complementação<br/>de perímetro de UCES</b>"]:::exececao
-    V7 --> |Sim| E2["⚠️ VEDADO<br/><b>Salvo plano de adequação<br/>aprovado pelo IDEFLOR-Bio</b>"]:::exececao
+    V5 --> |Não| OK5["✅ Passou"]:::ok
 
-    V1 --> |Não| OK1["✅"]:::check
-    V2 --> |Não| OK2["✅"]:::check
-    V3 --> |Não| OK3["✅"]:::check
-    V4 --> |Não| OK4["✅"]:::check
-    V5 --> |Não| OK5["✅"]:::check
-    V6 --> |Não| OK6["✅"]:::check
-    V7 --> |Não| OK7["✅"]:::check
+    OK5 --> V6{"6. Área inferior ao<br/>módulo fiscal?"}:::check
+    V6 --> |Sim| E1["⚠️ VEDADO<br/><b>Salvo complementação</b><br/><b>de perímetro de UCES</b>"]:::exececao
+    V6 --> |Não| OK6["✅ Passou"]:::ok
 
+    OK6 --> V7{"7. Edificações incompatíveis<br/>com UCES receptora?"}:::check
+    V7 --> |Sim| E2["⚠️ VEDADO<br/><b>Salvo plano de adequação</b><br/><b>aprovado pelo IDEFLOR-Bio</b>"]:::exececao
+    V7 --> |Não| APROVADO["✅ IMOVEL HABILITADO<br/>para prosseguimento"]:::ok
+
+    style TITULO stroke-width:3px
     style B1 stroke-width:2px
     style B2 stroke-width:2px
     style B3 stroke-width:2px
@@ -418,6 +428,7 @@ flowchart LR
     style B5 stroke-width:2px
     style E1 stroke-width:2px
     style E2 stroke-width:2px
+    style APROVADO stroke-width:4px
 ```
 
 > **Nota sobre ocupações tradicionais (Art. 6º, §2º):** A existência de ocupações tradicionais no imóvel **não constitui impedimento**, desde que compatíveis com os objetivos da UCES e sujeitas a Termo de Acordo entre IDEFLOR-Bio e os ocupantes.
