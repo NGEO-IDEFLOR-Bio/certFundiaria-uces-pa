@@ -207,41 +207,32 @@ flowchart TD
     IN["📥 Nota Técnica DGMUC favorável"]:::entrada
     --> DGB["🌳 DGB - Compatibilidade Ambiental<br/><b>Prazo: 15d úteis</b>"]:::ideflor
 
-    DGB --> D1["✅ Potencial de conservação<br/>e integridade da vegetação nativa"]:::ideflor
-    D1 --> D2["🔄 Relevância para conectividade<br/>de habitats e serviços ecossistêmicos"]:::ideflor
-    D2 --> D3["🔬 Pertinência para programas<br/>de conservação e pesquisa"]:::ideflor
-    D3 --> D4["⚠️ Compatibilidade de passivos<br/>ambientais com objetivos da UCES"]:::ideflor
-    D4 --> D5["📐 Existência de APP e RL<br/>conforme CAR"]:::ideflor
-
-    D5 --> PARECER_DGB{"Parecer DGB"}:::decisao
+    DGB --> PARECER_DGB{"Parecer DGB"}:::decisao
 
     PARECER_DGB --> |Favorável| PROC
-    PARECER_DGB --> |Com condicionantes| COND["📝 Condicionantes incluídas<br/>na CH e na escritura"]:::ideflor
+    PARECER_DGB --> |Com condicionantes| COND["📝 Condicionantes incluídas na CH e escritura"]:::ideflor
     COND --> PROC
 
     PROC["⚖️ Procuradoria - Análise Jurídica<br/><b>Prazo: 10d úteis</b>"]:::ideflor
-    --> P1["📋 Regularidade formal do processo"]:::ideflor
-    P1 --> P2["📜 Validade e suficiência da CACLG"]:::ideflor
-    P2 --> P3["🔍 Adequação da modalidade à legislação"]:::ideflor
-    P3 --> P4["📝 Condicionantes e ressalvas"]:::ideflor
-    P4 --> P5["🏛️ Competência do Estado para receber"]:::ideflor
-    P5 --> P6["📄 Minuta de despacho<br/>de deferimento ou indeferimento"]:::ideflor
-
-    P6 --> PRES["🏛️ Presidência - Deliberação Final<br/><b>Prazo: 5d úteis</b>"]:::ideflor
+    --> PRES["🏛️ Presidência - Deliberação Final<br/><b>Prazo: 5d úteis</b>"]:::ideflor
 
     PRES --> DELIB{"Decisão"}:::decisao
 
-    DELIB --> |✅ Deferir<br/>com/sem condicionantes| EMIT["📜 Emissão da CH<br/><b>5d úteis</b>"]:::documento
-    DELIB --> |❌ Indeferir<br/>fundamentadamente| INDEF["❌ Notificação ao requerente<br/>e ao ITERPA"]:::rejeicao
-    DELIB --> |🔄 Diligências<br/>complementares| DILIG["Retorno ao<br/>passo pertinente"]:::decisao
+    DELIB --> |✅ Deferir| EMIT["📜 Emissão da CH<br/><b>5d úteis</b>"]:::documento
+    DELIB --> |❌ Indeferir| INDEF["❌ Notificação ao requerente e ITERPA"]:::rejeicao
+    DELIB --> |🔄 Diligências| DILIG["Retorno ao passo pertinente"]:::decisao
 
-    EMIT --> CHOK["✅ CERTIDÃO DE HABILITAÇÃO<br/>Validade: 2 anos (+2 prorrogável)<br/>Condição necessária para Fase III"]:::documento
+    EMIT --> CHOK["✅ CERTIDÃO DE HABILITAÇÃO<br/>Validade: 2 anos (+2 prorrogável)"]:::documento
 
-    INDEF --> REC["📝 Recurso Administrativo<br/><b>15d úteis</b><br/>Efeito suspensivo (regra)<br/>Decisões compartilhadas: ITERPA + IDEFLOR"]:::rejeicao
+    INDEF --> REC["📝 Recurso Administrativo<br/><b>15d úteis</b> - Efeito suspensivo"]:::rejeicao
 
     style CHOK stroke-width:3px
     style DILIG stroke:#E67E22,stroke-width:2px
 ```
+
+**Critérios de análise - DGB:** Potencial de conservação | Integridade dos ecossistemas | Pertinência para programas de conservação | Compatibilidade de passivos | APP e RL conforme CAR
+
+**Critérios de análise - Procuradoria:** Regularidade formal | Validade/suficiência da CACLG | Adequação da modalidade | Condicionantes/ressalvas | Competência do Estado | Minuta de despacho
 
 ### Conteúdo Obrigatório da CH (Art. 16)
 
@@ -270,32 +261,21 @@ flowchart TD
     classDef ideflor fill:#D5F5E3,stroke:#27AE60,stroke-width:2px,color:#1E8449
 
     CHOK["✅ CH Emitida"]:::inicio
-    --> REQ["🧑 Requerimento do Doador<br/>ao IDEFLOR-Bio solicitando<br/>lavratura da escritura"]:::ideflor
+    --> REQ["🧑 Doador requer ao IDEFLOR-Bio<br/>lavratura da escritura"]:::ideflor
 
-    REQ --> ENC["📤 IDEFLOR-Bio encaminha<br/>ao ITERPA"]:::ideflor
+    REQ --> ENC["📤 IDEFLOR-Bio encaminha ao ITERPA"]:::ideflor
 
-    ENC --> VERIF["📋 ITERPA: Verificação de Documentos<br/>Solicitar atualização dos vencidos"]:::iterpa
+    ENC --> VERIF["📋 ITERPA: Verificação de Documentos<br/>+ Atualização dos vencidos"]:::iterpa
 
-    VERIF --> MINUTA["📄 ITERPA: Elaboração de Minuta de Escritura<br/><b>Prazo: 15d úteis</b><br/>Cláusulas obrigatórias (Art. 20)"]:::iterpa
+    VERIF --> MINUTA["📄 ITERPA: Minuta de Escritura<br/><b>Prazo: 15d úteis</b><br/>8 cláusulas obrigatórias (Art. 20)"]:::iterpa
 
-    MINUTA --> CLAUSULAS["📝 Cláusulas da Escritura"]:::fase3
-
-    CLAUSULAS --> C1["I - Qualificação das partes"]:::fase3
-    C1 --> C2["II - Descrição do imóvel conforme geo"]:::fase3
-    C2 --> C3["III - Livre e desembaraçado"]:::fase3
-    C3 --> C4["IV - Aceite do Estado do Pará (ITERPA)"]:::fase3
-    C4 --> C5["V - Destinação à UCES sob gestão IDEFLOR-Bio"]:::fase3
-    C5 --> C6["VI - Modalidade + créditos de compensação"]:::fase3
-    C6 --> C7["VII - Condicionantes da CH"]:::fase3
-    C7 --> C8["VIII - Ocupações tradicionais (Termo de Acordo)"]:::fase3
-
-    C8 --> LAV["📝 Lavratura da Escritura<br/>Cartório de Notas competente<br/><b>Despesas: Doador (regra geral)</b>"]:::fase3
+    MINUTA --> LAV["📝 Lavratura da Escritura<br/>Cartório de Notas<br/><b>Despesas: Doador</b>"]:::fase3
 
     LAV --> REG["📋 Registro no Cartório de Imóveis<br/><b>Prazo: 30 dias corridos</b>"]:::fase3
 
-    REG --> COM["📤 ITERPA comunica IDEFLOR-Bio<br/>Inc. ao patrimônio do Estado<br/>+ Atualização do CNUC"]:::iterpa
+    REG --> COM["📤 ITERPA comunica IDEFLOR-Bio<br/>+ Atualização do CNUC"]:::iterpa
 
-    COM --> CCI["📜 Certidão de Conclusão de Incorporação<br/><b>Prazo: 10d úteis</b><br/>Matrícula + Área + UCES + Modalidade + Créditos"]:::documento
+    COM --> CCI["📜 Certidão de Conclusão de Incorporação<br/><b>Prazo: 10d úteis</b>"]:::documento
 
     CCI --> FIM(("✅ PROCESSO CONCLUÍDO")):::inicio
 
@@ -303,6 +283,10 @@ flowchart TD
     style CCI stroke-width:3px
     style CHOK stroke:#8E44AD,stroke-width:3px
 ```
+
+**Cláusulas obrigatórias da Escritura (Art. 20):** I - Qualificação das partes | II - Descrição do imóvel conforme geo | III - Livre e desembaraçado | IV - Aceite do Estado do Pará (ITERPA) | V - Destinação à UCES sob gestão IDEFLOR-Bio | VI - Modalidade + créditos de compensação | VII - Condicionantes da CH | VIII - Ocupações tradicionais (Termo de Acordo)
+
+**Certidão de Conclusão de Incorporação (Art. 22):** Nº matrícula | Área incorporada (ha) | UCES receptora | Modalidade de incorporação | Créditos gerados
 
 ---
 
@@ -386,41 +370,31 @@ flowchart TD
     classDef exececao fill:#FEF9E7,stroke:#F4D03F,stroke-width:2px,color:#7D6608
     classDef check fill:#D6EAF8,stroke:#2980B9,stroke-width:2px,color:#1B4F72
     classDef ok fill:#D5F5E3,stroke:#27AE60,stroke-width:2px,color:#1E8449
-    classDef titulo fill:#FFFFFF,stroke:#2C3E50,stroke-width:3px,color:#2C3E50
 
-    TITULO["🚫 IMPEDIMENTOS À INCORPORAÇÃO<br/><b>Art. 6º da IN Conjunta</b>"]:::titulo
+    INICIO["🧾 Verificação de Impedimentos"]:::check
+    --> V1{"Pendências na cadeia dominial?"}:::check
 
-    TITULO --> V1
+    V1 --> |Sim| B1["🚫 VEDADO<br/>Salvo sentença transitada em julgado"]:::bloqueio
+    V1 --> |Não| V2{"Litígio judicial ou administrativo?"}:::check
 
-    V1{"1. Pendências na<br/>cadeia dominial?"}:::check
-    V1 --> |Sim| B1["🚫 VEDADO<br/><b>Salvo sentença</b><br/><b>transitada em julgado</b>"]:::bloqueio
-    V1 --> |Não| OK1["✅ Passou"]:::ok
+    V2 --> |Sim| B2["🚫 VEDADO<br/>Salvo decisão administrativa definitiva"]:::bloqueio
+    V2 --> |Não| V3{"Passivos ambientais incompatíveis?"}:::check
 
-    OK1 --> V2{"2. Litígio judicial<br/>ou administrativo?"}:::check
-    V2 --> |Sim| B2["🚫 VEDADO<br/><b>Salvo decisão</b><br/><b>administrativa definitiva</b>"]:::bloqueio
-    V2 --> |Não| OK2["✅ Passou"]:::ok
+    V3 --> |Sim| B3["🚫 VEDADO"]:::bloqueio
+    V3 --> |Não| V4{"Sobreposição c/ áreas protegidas?"}:::check
 
-    OK2 --> V3{"3. Passivos ambientais<br/>consolidados incompatíveis?"}:::check
-    V3 --> |Sim| B3["🚫 VEDADO<br/>Incompatível com<br/>objetivos da UCES"]:::bloqueio
-    V3 --> |Não| OK3["✅ Passou"]:::ok
+    V4 --> |Sim| B4["🚫 VEDADO"]:::bloqueio
+    V4 --> |Não| V5{"CAR inativo ou irregular?"}:::check
 
-    OK3 --> V4{"4. Sobreposição com<br/>propriedades certificadas<br/>ou áreas de comunidades?"}:::check
-    V4 --> |Sim| B4["🚫 VEDADO<br/>Quilombolas, indígenas<br/>ou tradicionais"]:::bloqueio
-    V4 --> |Não| OK4["✅ Passou"]:::ok
+    V5 --> |Sim| B5["🚫 VEDADO"]:::bloqueio
+    V5 --> |Não| V6{"Área inferior ao módulo fiscal?"}:::check
 
-    OK4 --> V5{"5. CAR inativo<br/>ou irregular no SICAR?"}:::check
-    V5 --> |Sim| B5["🚫 VEDADO<br/>CAR deve estar ativo<br/>e regular no SICAR"]:::bloqueio
-    V5 --> |Não| OK5["✅ Passou"]:::ok
+    V6 --> |Sim| E1["⚠️ VEDADO<br/>Salvo complementação de perímetro de UCES"]:::exececao
+    V6 --> |Não| V7{"Edificações incompatíveis c/ UCES?"}:::check
 
-    OK5 --> V6{"6. Área inferior ao<br/>módulo fiscal?"}:::check
-    V6 --> |Sim| E1["⚠️ VEDADO<br/><b>Salvo complementação</b><br/><b>de perímetro de UCES</b>"]:::exececao
-    V6 --> |Não| OK6["✅ Passou"]:::ok
+    V7 --> |Sim| E2["⚠️ VEDADO<br/>Salvo plano de adequação aprovado"]:::exececao
+    V7 --> |Não| APROVADO["✅ IMÓVEL HABILITADO"]:::ok
 
-    OK6 --> V7{"7. Edificações incompatíveis<br/>com UCES receptora?"}:::check
-    V7 --> |Sim| E2["⚠️ VEDADO<br/><b>Salvo plano de adequação</b><br/><b>aprovado pelo IDEFLOR-Bio</b>"]:::exececao
-    V7 --> |Não| APROVADO["✅ IMOVEL HABILITADO<br/>para prosseguimento"]:::ok
-
-    style TITULO stroke-width:3px
     style B1 stroke-width:2px
     style B2 stroke-width:2px
     style B3 stroke-width:2px
