@@ -6,16 +6,16 @@
     classDef inicio fill:#FFFFFF,stroke:#2C3E50,stroke-width:2px,color:#2C3E50
 
     INDEF["❌ Indeferimento (Fase I ou II)"]:::rejeicao
-    --> REC["📝 Recurso Administrativo<br/><b>Prazo: 15d úteis</b>"]:::inicio
+    --> REC["Recurso Administrativo<br/><b>Prazo: 15d úteis</b>"]:::inicio
 
-    REC --> DIR["🏛️ Diretor-Presidente do órgão responsável"]:::decisao
+    REC --> DIR["Diretor-Presidente do órgão responsável"]:::decisao
 
     DIR --> EFEITO["⚠️ Efeito suspensivo<br/><i>Regra geral</i><br/>Salvo decisão em contrário no interesse público"]:::decisao
 
     EFEITO --> COMP{"Competências compartilhadas?"}:::decisao
 
-    COMP --> |Sim| CONJ["🏛️ Decisão Conjunta<br/>Diretores-Presidentes<br/>ITERPA + IDEFLOR-Bio<br/><i>Art. 28, §2º</i>"]:::iterpa
-    COMP --> |Não| UNI["🏛️ Decisão Unilateral do<br/>Diretor-Presidente do órgão responsável"]:::ideflor
+    COMP --> |Sim| CONJ["Decisão Conjunta<br/>Diretores-Presidentes<br/>ITERPA + IDEFLOR-Bio<br/><i>Art. 28, §2º</i>"]:::iterpa
+    COMP --> |Não| UNI["Decisão Unilateral do<br/>Diretor-Presidente do órgão responsável"]:::ideflor
 
     CONJ --> RESULT{"Resultado"}:::decisao
     UNI --> RESULT

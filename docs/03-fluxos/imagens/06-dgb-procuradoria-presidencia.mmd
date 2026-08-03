@@ -5,27 +5,27 @@ flowchart TD
     classDef rejeicao fill:#FADBD8,stroke:#E74C3C,stroke-width:2px,color:#922B21
     classDef entrada fill:#FFFFFF,stroke:#2C3E50,stroke-width:2px,color:#2C3E50
 
-    IN["📥 Nota Técnica DGMUC favorável"]:::entrada
-    --> PROC["⚖️ Procuradoria - Análise Jurídica"]:::ideflor
+    IN["Nota Técnica DGMUC favorável"]:::entrada
+    --> PROC["Procuradoria - Análise Jurídica"]:::ideflor
 
-    PROC --> P1["📋 Regularidade formal do processo"]:::ideflor
-    P1 --> P2["📜 Validade e suficiência da CACLG"]:::ideflor
+    PROC --> P1["Regularidade formal do processo"]:::ideflor
+    P1 --> P2["Validade e suficiência da CACLG"]:::ideflor
     P2 --> P3["🔍 Adequação da modalidade à legislação"]:::ideflor
-    P3 --> P4["📝 Condicionantes e ressalvas"]:::ideflor
-    P4 --> P5["🏛️ Competência do Estado para receber"]:::ideflor
-    P5 --> P6["📄 Minuta de despacho de deferimento ou indeferimento"]:::ideflor
+    P3 --> P4["Condicionantes e ressalvas"]:::ideflor
+    P4 --> P5["Competência do Estado para receber"]:::ideflor
+    P5 --> P6["Minuta de despacho de deferimento ou indeferimento"]:::ideflor
 
-    P6 --> PRES["🏛️ Presidência - Deliberação Final"]:::ideflor
+    P6 --> PRES["Presidência - Deliberação Final"]:::ideflor
 
     PRES --> DELIB{"Decisão"}:::decisao
 
-    DELIB --> |✅ Deferir com/sem condicionantes| EMIT["📜 Emissão da CH"]:::documento
+    DELIB --> |✅ Deferir com/sem condicionantes| EMIT["Emissão da CH"]:::documento
     DELIB --> |❌ Indeferir fundamentadamente| INDEF["❌ Notificação ao requerente e ao ITERPA"]:::rejeicao
     DELIB --> |🔄 Diligências complementares| DILIG["🔄 Retorno ao passo pertinente"]:::decisao
 
     EMIT --> CHOK["✅ CERTIDÃO DE HABILITAÇÃO<br/>Validade: 2 anos (+2 prorrogável)<br/>Condição necessária para Fase III"]:::documento
 
-    INDEF --> REC["📝 Recurso Administrativo<br/><b>15d úteis</b> - Efeito suspensivo<br/>Decisões compartilhadas: ITERPA + IDEFLOR"]:::rejeicao
+    INDEF --> REC["Recurso Administrativo<br/><b>15d úteis</b> - Efeito suspensivo<br/>Decisões compartilhadas: ITERPA + IDEFLOR"]:::rejeicao
 
     style CHOK stroke-width:3px
     style DILIG stroke:#E67E22,stroke-width:2px

@@ -5,23 +5,23 @@ flowchart TD
     classDef rejeicao fill:#FADBD8,stroke:#E74C3C,stroke-width:2px,color:#922B21
     classDef inicio fill:#FFFFFF,stroke:#2C3E50,stroke-width:2px,color:#2C3E50
 
-    REQ["🧑 Requerente protocola requerimento<br/>físico ou eletrônico (SICARF)"]:::inicio
+    REQ["Requerente protocola requerimento<br/>físico ou eletrônico (SICARF)"]:::inicio
     --> MOD{"Indica UCES e modalidade?<br/><i>Se não: Doação Antecipada</i>"}:::decisao
 
-    MOD --> |Sim ou Não| AF["📋 Análise Formal da Documentação"]:::iterpa
+    MOD --> |Sim ou Não| AF["Análise Formal da Documentação"]:::iterpa
 
     AF --> DOCOK{"Documentação completa?"}:::decisao
 
     DOCOK --> |Não| COMP["📤 Notificação para complementação"]:::rejeicao
     COMP --> AF
 
-    DOCOK --> |Sim| GEO["🗺️ Análise Técnica do Georreferenciamento<br/>Correspondência com UCES<br/>Inexistência de óbices fundiários<br/>Necessidade de ratificação/retificação"]:::iterpa
+    DOCOK --> |Sim| GEO["Análise Técnica do Georreferenciamento<br/>Correspondência com UCES<br/>Inexistência de óbices fundiários<br/>Necessidade de ratificação/retificação"]:::iterpa
 
-    GEO --> PJ["⚖️ Parecer Jurídico - Procuradoria ITERPA"]:::iterpa
+    GEO --> PJ["Parecer Jurídico - Procuradoria ITERPA"]:::iterpa
 
     PJ --> DP{"Decisão do Diretor-Presidente"}:::decisao
 
-    DP --> |Aprovação| EMIT["📜 Emissão da CACLG"]:::documento
+    DP --> |Aprovação| EMIT["Emissão da CACLG"]:::documento
     DP --> |Reprovação| NAO["❌ Notificação ao requerente<br/>Possibilidade de regularização (Art. 23)"]:::rejeicao
 
     EMIT --> CACLG["✅ CACLG Emitida<br/>Menção: imóvel habilitado para Fase II<br/>+ Peças técnicas e jurídicas"]:::documento

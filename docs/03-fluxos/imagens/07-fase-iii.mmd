@@ -6,15 +6,15 @@ flowchart TD
     classDef ideflor fill:#D5F5E3,stroke:#27AE60,stroke-width:2px,color:#1E8449
 
     CHOK["✅ CH Emitida"]:::inicio
-    --> REQ["🧑 Requerimento do Doador<br/>ao IDEFLOR-Bio solicitando<br/>lavratura da escritura"]:::ideflor
+    --> REQ["Requerimento do Doador<br/>ao IDEFLOR-Bio solicitando<br/>lavratura da escritura"]:::ideflor
 
     REQ --> ENC["📤 IDEFLOR-Bio encaminha ao ITERPA"]:::ideflor
 
-    ENC --> VERIF["📋 ITERPA: Verificação de Documentos<br/>Solicitar atualização dos vencidos"]:::iterpa
+    ENC --> VERIF["ITERPA: Verificação de Documentos<br/>Solicitar atualização dos vencidos"]:::iterpa
 
-    VERIF --> MINUTA["📄 ITERPA: Elaboração de Minuta de Escritura<br/>Cláusulas obrigatórias (Art. 20)"]:::iterpa
+    VERIF --> MINUTA["ITERPA: Elaboração de Minuta de Escritura<br/>Cláusulas obrigatórias (Art. 20)"]:::iterpa
 
-    MINUTA --> CLAUSULAS["📝 Cláusulas da Escritura"]:::fase3
+    MINUTA --> CLAUSULAS["Cláusulas da Escritura"]:::fase3
 
     CLAUSULAS --> C1["I - Qualificação das partes"]:::fase3
     C1 --> C2["II - Descrição do imóvel conforme geo"]:::fase3
@@ -25,13 +25,13 @@ flowchart TD
     C6 --> C7["VII - Condicionantes da CH"]:::fase3
     C7 --> C8["VIII - Ocupações tradicionais (Termo de Acordo)"]:::fase3
 
-    C8 --> LAV["📝 Lavratura da Escritura<br/>Cartório de Notas competente<br/><b>Despesas: Doador (regra geral)</b>"]:::fase3
+    C8 --> LAV["Lavratura da Escritura<br/>Cartório de Notas competente<br/><b>Despesas: Doador (regra geral)</b>"]:::fase3
 
-    LAV --> REG["📋 Registro no Cartório de Imóveis<br/><b>Prazo: 30 dias corridos (Art. 21)</b>"]:::fase3
+    LAV --> REG["Registro no Cartório de Imóveis<br/><b>Prazo: 30 dias corridos (Art. 21)</b>"]:::fase3
 
     REG --> COM["📤 ITERPA comunica IDEFLOR-Bio<br/>Incorporação ao patrimônio do Estado<br/>+ Atualização do CNUC"]:::iterpa
 
-    COM --> CCI["📜 Certidão de Conclusão de Incorporação<br/>Matrícula + Área + UCES + Modalidade + Créditos"]:::documento
+    COM --> CCI["Certidão de Conclusão de Incorporação<br/>Matrícula + Área + UCES + Modalidade + Créditos"]:::documento
 
     CCI --> FIM(("✅ PROCESSO CONCLUÍDO")):::inicio
 

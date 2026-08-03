@@ -5,8 +5,8 @@ flowchart TD
     classDef rejeicao fill:#FADBD8,stroke:#E74C3C,stroke-width:2px,color:#922B21
     classDef inicio fill:#FFFFFF,stroke:#2C3E50,stroke-width:2px,color:#2C3E50
 
-    REC["📥 Recebimento do processo do ITERPA com CACLG"]:::inicio
-    --> AUT["📋 Presidência: Autuação e Distribuição Interna"]:::ideflor
+    REC["Recebimento do processo do ITERPA com CACLG"]:::inicio
+    --> AUT["Presidência: Autuação e Distribuição Interna"]:::ideflor
 
     AUT --> S1["1️⃣ NGEO - Sensoriamento Remoto e Parecer"]:::ideflor
     S1 --> S2["2️⃣ DGMUC - Análise de Pertinência"]:::ideflor
@@ -15,7 +15,7 @@ flowchart TD
 
     S4 --> DELIB{"Deliberação da Presidência"}:::decisao
 
-    DELIB --> |Deferimento com/sem condicionantes| EMITCH["📜 Emissão da CH"]:::documento
+    DELIB --> |Deferimento com/sem condicionantes| EMITCH["Emissão da CH"]:::documento
     DELIB --> |Indeferimento| INDEF["❌ Notificação ao requerente e ITERPA<br/>Recurso: 15d úteis"]:::rejeicao
     DELIB --> |Diligências complementares| DILIG["🔄 Retorno ao passo pertinente"]:::decisao
 
