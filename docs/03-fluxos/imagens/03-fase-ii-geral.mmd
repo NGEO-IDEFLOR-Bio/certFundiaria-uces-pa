@@ -1,4 +1,4 @@
-﻿flowchart TD
+flowchart TD
     classDef ideflor fill:#D5F5E3,stroke:#27AE60,stroke-width:2px,color:#1E8449
     classDef documento fill:#E8DAEF,stroke:#8E44AD,stroke-width:2px,color:#6C3483
     classDef decisao fill:#FFF9C4,stroke:#F1C40F,stroke-width:2px,color:#5D4037
@@ -8,15 +8,14 @@
     REC["📥 Recebimento do processo do ITERPA com CACLG"]:::inicio
     --> AUT["📋 Presidência: Autuação e Distribuição Interna"]:::ideflor
 
-    AUT --> S1["1️⃣ NGEO - Monitoramento Remoto<br/><b>20d úteis (+10 prorrogáveis)</b>"]:::ideflor
-    S1 --> S2["2️⃣ DGMUC - Análise de Pertinência<br/><b>10d úteis</b>"]:::ideflor
-    S2 --> S3["3️⃣ DGB - Compatibilidade Ambiental<br/><b>15d úteis</b>"]:::ideflor
-    S3 --> S4["4️⃣ Procuradoria - Análise Jurídica<br/><b>10d úteis</b>"]:::ideflor
-    S4 --> S5["5️⃣ Presidência - Deliberação Final<br/><b>5d úteis</b>"]:::ideflor
+    AUT --> S1["1️⃣ NGEO - Sensoriamento Remoto e Parecer"]:::ideflor
+    S1 --> S2["2️⃣ DGMUC - Análise de Pertinência"]:::ideflor
+    S2 --> S3["3️⃣ Procuradoria - Análise Jurídica"]:::ideflor
+    S3 --> S4["4️⃣ Presidência - Deliberação Final"]:::ideflor
 
-    S5 --> DELIB{"Deliberação da Presidência"}:::decisao
+    S4 --> DELIB{"Deliberação da Presidência"}:::decisao
 
-    DELIB --> |Deferimento com/sem condicionantes| EMITCH["📜 Emissão da CH<br/><b>5d úteis</b>"]:::documento
+    DELIB --> |Deferimento com/sem condicionantes| EMITCH["📜 Emissão da CH"]:::documento
     DELIB --> |Indeferimento| INDEF["❌ Notificação ao requerente e ITERPA<br/>Recurso: 15d úteis"]:::rejeicao
     DELIB --> |Diligências complementares| DILIG["🔄 Retorno ao passo pertinente"]:::decisao
 

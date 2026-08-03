@@ -83,7 +83,6 @@ classDiagram
         +car_numero: string
         +car_status: string
         +bioma: string
-        +modulo_fiscal_municipio: decimal
         +possui_ocupacoes_tradicionais: boolean
         +possui_benfeitorias: boolean
     }
@@ -243,7 +242,7 @@ classDiagram
 
 ---
 
-## 9. Entidades de Análise - DGMUC e DGB
+## 9. Entidades de Análise - DGMUC
 
 ```mermaid
 classDiagram
@@ -258,27 +257,7 @@ classDiagram
         +resultado: string
     }
 
-    class ANALISE_DGB {
-        +id_analise_dgb: PK
-        +potencial_conservacao: text
-        +integridade_ecossistemas: text
-        +passivos_ambientais_recuperaveis: boolean
-        +areas_app: boolean
-        +areas_rl: boolean
-        +compatibilidade_ambiental: boolean
-        +condicionantes_incorporacao: text
-    }
-
-    ANALISE_DGMUC --> UCES : uces_alternativa_sugerida
-
-    class UCES {
-        +id_uces: PK
-        +nome: string
-    }
-
     style ANALISE_DGMUC fill:#D5F5E3,stroke:#27AE60,stroke-width:2px,color:#1E8449
-    style ANALISE_DGB fill:#D5F5E3,stroke:#27AE60,stroke-width:2px,color:#1E8449
-    style UCES fill:#E8DAEF,stroke:#8E44AD,stroke-width:2px,color:#6C3483
 ```
 
 ---
@@ -409,8 +388,7 @@ stateDiagram-v2
     state "FASE II - IDEFLOR-Bio" as faseII {
         caclg_emitida --> em_analise_ngeo
         em_analise_ngeo --> em_analise_dgmuc
-        em_analise_dgmuc --> em_analise_dgb : Pertinencia
-        em_analise_dgb --> em_analise_juridica_ideflor
+        em_analise_dgmuc --> em_analise_juridica_ideflor : Pertinencia
         em_analise_juridica_ideflor --> em_deliberacao_presidencia
         em_deliberacao_presidencia --> ch_emitida : Deferimento
     }
@@ -463,8 +441,7 @@ stateDiagram-v2
 | `caclg_emitida` | I→II | CACLG emitida, aguardando remessa |
 | `em_analise_ngeo` | II | Análise no NGEO |
 | `em_analise_dgmuc` | II | Análise de pertinência na DGMUC |
-| `em_analise_dgb` | II | Análise de compatibilidade na DGB |
-| `em_analise_juridica_ideflor` | II | Parecer jurídico IDEFLOR-Bio |
+| `em_analise_juridica_ideflor` | II | Parecer início e regularidade na Procuradoria Jurídica |
 | `em_deliberacao_presidencia` | II | Deliberação da Presidência |
 | `ch_emitida` | II→III | CH emitida |
 | `em_elaboracao_minuta` | III | Elaboração de minuta de escritura |
@@ -497,7 +474,6 @@ stateDiagram-v2
 | Valor | Descrição |
 |-------|-----------|
 | `pertinencia` | Pertinência da incorporação |
-| `pertinencia_redirecionamento` | Pertinência com redirecionamento a outra UCES |
 | `impertinencia` | Impertinência da incorporação |
 
 ### STATUS_CACLG

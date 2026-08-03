@@ -95,45 +95,41 @@ Monitoramento de prazos, notificações e dashboard de acompanhamento.
 - **Quero** realizar a análise formal da documentação
 - **Para** verificar completude e conformidade
 - **Critérios de aceite**:
-  - Prazo de 10 dias úteis
-  - Possibilidade de solicitar complementação de documentos (30 dias corridos)
+  - Possibilidade de solicitar complementação de documentos
   - Checklists de documentos obrigatórios
   - Registro de pendências e solicitações
-- **Ref. IN**: Art. 38, I-II
+- **Ref. IN**: Art. 9º, Art. 8º, Parágrafo único
 
 ### STORY-02.2: Análise Técnica do Georreferenciamento
 - **Como** analista do ITERPA
 - **Quero** realizar a análise técnica do georreferenciamento
 - **Para** verificar correspondência com UCES e inexistência de óbices fundiários
 - **Critérios de aceite**:
-  - Prazo de 20 dias úteis
   - Verificação de correspondência geoespacial com UCES
   - Verificação de inexistência de óbices fundiários
   - Verificação de necessidade de ratificação/retificação
   - Integração com padrão INCRA
-- **Ref. IN**: Art. 9º, Art. 38, III
+- **Ref. IN**: Art. 9º
 
 ### STORY-02.3: Parecer Jurídico ITERPA
 - **Como** procurador do ITERPA
 - **Quero** emitir parecer jurídico sobre a cadeia dominial
 - **Para** atestar regularidade fundiária
 - **Critérios de aceite**:
-  - Prazo de 15 dias úteis
   - Análise da cadeia dominial
   - Verificação de consistência registral e dominial
   - Identificação de necessidade de regularização
-- **Ref. IN**: Art. 38, IV
+- **Ref. IN**: Art. 9º
 
 ### STORY-02.4: Emissão da CACLG
 - **Como** Diretor-Presidente do ITERPA
 - **Quero** emitir a CACLG
 - **Para** habilitar o imóvel para prosseguimento ao IDEFLOR-Bio
 - **Critérios de aceite**:
-  - Prazo de 5 dias úteis após aprovação
   - Menção expressa de habilitação para Fase II
   - Remessa automática do processo ao IDEFLOR-Bio
   - Notificação ao requerente
-- **Ref. IN**: Art. 10, Art. 38, V
+- **Ref. IN**: Art. 10
 
 ### STORY-02.5: Verificação de Impedimentos Fundiários
 - **Como** analista do ITERPA
@@ -143,11 +139,10 @@ Monitoramento de prazos, notificações e dashboard de acompanhamento.
   - Verificar pendências na cadeia dominial (sobreposição com áreas públicas)
   - Verificar litígios judiciais/administrativos
   - Verificar passivos ambientais incompatíveis
-  - Verificar sobreposição com propriedades certificadas INCRA
+  - Verificar sobreposição com áreas de regularização fundiária de comunidades indígenas, quilombolas ou tradicionais
   - Verificar CAR ativo e regular
-  - Verificar área inferior ao módulo fiscal (com exceção de complementação)
   - Verificar edificações incompatíveis com UCES
-  - Permitir superação com sentença transitada em julgado
+  - Permitir superação com sentença transitada em julgado ou decisão definitiva
 - **Ref. IN**: Art. 6º
 
 ### STORY-02.6: Antecipação de Análise Florestal
@@ -166,7 +161,7 @@ Monitoramento de prazos, notificações e dashboard de acompanhamento.
 ### STORY-03.1: Distribuição Interna do Processo
 - **Como** Presidência do IDEFLOR-Bio
 - **Quero** distribuir o processo internamente de forma sequencial
-- **Para** garantir o fluxo NGEO → DGMUC → DGB → Procuradoria → Presidência
+- **Para** garantir o fluxo NGEO → DGMUC → Procuradoria → Presidência
 - **Critérios de aceite**:
   - Autuação automática ao receber processo do ITERPA
   - Distribuição sequencial obrigatória
@@ -187,7 +182,6 @@ Monitoramento de prazos, notificações e dashboard de acompanhamento.
   - Indicar sobreposição com Plano de Gestão
   - Indicar vocação para compensação florestal (sim/não)
   - Emitir relatório técnico com recomendação ou não
-  - Prazo: 20 dias úteis (+10 prorrogáveis)
 - **Ref. IN**: Art. 12
 
 ### STORY-03.3: Análise de Pertinência (DGMUC)
@@ -200,39 +194,21 @@ Monitoramento de prazos, notificações e dashboard de acompanhamento.
   - Avaliar importância estratégica para consolidação/ampliação da UCES
   - Identificar corredores ecológicos e áreas de sensibilidade
   - Verificar conformidade com Plano de Gestão
-  - Emitir nota técnica: pertinência / pertinência com redirecionamento / impertinência
-  - Prazo: 10 dias úteis
-  - Em caso de redirecionamento, consultar requerente (10 dias úteis)
+  - Emitir nota técnica: pertinência ou impertinência
 - **Ref. IN**: Art. 13
-
-### STORY-03.4: Análise de Compatibilidade Ambiental (DGB)
-- **Como** analista da DGB
-- **Quero** realizar a análise de compatibilidade ambiental
-- **Para** avaliar se o imóvel é adequado para conservação
-- **Critérios de aceite**:
-  - Avaliar potencial de conservação e integridade de vegetação nativa
-  - Avaliar relevância para conectividade de habitats e serviços ecossistêmicos
-  - Avaliar pertinência para programas de conservação e pesquisa
-  - Verificar compatibilidade de passivos ambientais
-  - Verificar APP e RL conforme CAR
-  - Emitir parecer técnico
-  - Condições recuperáveis geram condicionantes para CH e escritura
-  - Prazo: 15 dias úteis
-- **Ref. IN**: Art. 21
 
 ### STORY-03.5: Análise Jurídica (Procuradoria)
 - **Como** procurador do IDEFLOR-Bio
 - **Quero** realizar a análise jurídica
 - **Para** verificar regularidade e legalidade
 - **Critérios de aceite**:
-  - Verificar regularidade formal e cumprimento de etapas/prazos
+  - Verificar regularidade formal e cumprimento de etapas
   - Verificar validade e suficiência da CACLG
   - Verificar adequação da modalidade à legislação
   - Analisar condicionantes/ressalvas
   - Verificar competência do Estado para receber imóvel
   - Elaborar minuta de despacho de deferimento/indeferimento
   - Identificar irregularidades sanáveis
-  - Prazo: 10 dias úteis
 - **Ref. IN**: Art. 14
 
 ### STORY-03.6: Deliberação e Emissão da CH
@@ -242,8 +218,6 @@ Monitoramento de prazos, notificações e dashboard de acompanhamento.
 - **Critérios de aceite**:
   - Deliberação com base no conjunto de manifestações
   - Pode deferir com/sem condicionantes, indeferir, ou determinar diligências
-  - Prazo de deliberação: 5 dias úteis
-  - Prazo de emissão da CH: 5 dias úteis após deliberação
   - CH deve conter todos os campos obrigatórios (Art. 16, I-IX)
   - Validade da CH: 2 anos, prorrogáveis por mais 2 anos
   - Indeferimento deve ser motivado e comunicado ao requerente e ITERPA
@@ -322,11 +296,11 @@ Monitoramento de prazos, notificações e dashboard de acompanhamento.
 
 ### STORY-05.3: Utilização de Créditos
 - **Como** Doador Beneficiário
-- **Quero** utilizar créditos perante SEMAS, ITERPA ou outros órgãos
-- **Para** regularizar obrigações ambientais ou fundiárias
+- **Quero** utilizar créditos perante SEMAS ou outros órgãos
+- **Para** regularizar obrigações ambientais
 - **Critérios de aceite**:
   - Registrar utilização com imediata redução do saldo
-  - Permitir utilização perante SEMAS, ITERPA e outros órgãos
+  - Permitir utilização perante SEMAS e outros órgãos competentes
   - Expedir certidão individualizada quando solicitado
 - **Ref. IN**: Art. 27
 
@@ -397,25 +371,14 @@ Monitoramento de prazos, notificações e dashboard de acompanhamento.
   - Tempo médio por etapa
   - Filtros por órgão, unidade, status, UCES, modalidade
 
-### STORY-07.2: Controle de Prazos
-- **Como** responsável por etapa
-- **Quero** ser notificado sobre prazos
-- **Para** cumprir os prazos definidos na IN
+### STORY-07.2: Controle de SLAs Internos
+- **Como** gestor do processo
+- **Quero** monitorar o tempo de atendimento de cada etapa
+- **Para** garantir a eficiência operacional e identificar gargalos
 - **Critérios de aceite**:
-  - Cálculo automático de prazos (úteis/corridos conforme a etapa)
-  - Alertas de vencimento próximo
-  - Registro de prorrogações quando aplicável
-  - Quadro resumo de prazos conforme Art. 38-40
-
-### STORY-07.3: Reunião Mensal de Alinhamento
-- **Como** servidor designado
-- **Quero** registrar as reuniões mensais de alinhamento operacional
-- **Para** documentar o controle institucional
-- **Critérios de aceite**:
-  - Agendamento e registro de reuniões mensais
-  - Pauta e ata
-  - Deliberações e ações
-- **Ref. IN**: Art. 42
+  - Registro automático de tempos de tramitação (data de entrada e saída por unidade)
+  - Alertas visuais e notificações baseados em SLAs internos configuráveis
+  - Relatórios de tempo de ciclo por fase e por órgão
 
 ### STORY-07.4: Relatórios Gerenciais
 - **Como** Diretor-Presidente

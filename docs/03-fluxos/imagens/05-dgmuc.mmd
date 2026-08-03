@@ -1,12 +1,11 @@
-﻿flowchart TD
+flowchart TD
     classDef ideflor fill:#D5F5E3,stroke:#27AE60,stroke-width:2px,color:#1E8449
     classDef decisao fill:#FFF9C4,stroke:#F1C40F,stroke-width:2px,color:#5D4037
     classDef rejeicao fill:#FADBD8,stroke:#E74C3C,stroke-width:2px,color:#922B21
-    classDef alerta fill:#FFF3CD,stroke:#856404,stroke-width:2px,color:#856404
     classDef entrada fill:#FFFFFF,stroke:#2C3E50,stroke-width:2px,color:#2C3E50
 
-    IN["📥 Relatório NGEO recebido"]:::entrada
-    --> DGMUC["🏛️ DGMUC - Análise de Pertinência<br/><b>Prazo: 10d úteis</b>"]:::ideflor
+    IN["📥 Relatório/Parecer NGEO recebido"]:::entrada
+    --> DGMUC["🏛️ DGMUC - Análise de Pertinência"]:::ideflor
 
     DGMUC --> A1["📍 Inserção integral ou parcial na UCES"]:::ideflor
     A1 --> A2["📋 Compatibilidade com categoria de manejo da UCES receptora"]:::ideflor
@@ -16,13 +15,7 @@
 
     A5 --> RESULT{"Resultado da Nota Técnica"}:::decisao
 
-    RESULT --> |Pertinência| DGB(("➡️ Encaminha à DGB")):::entrada
-    RESULT --> |Pertinência com redirecionamento| REDIR["🔄 Consultar requerente sobre UCES alternativa<br/><b>10d úteis</b>"]:::alerta
-
-    REDIR --> ACEITA{"Requerente aceita?"}:::decisao
-    ACEITA --> |Sim| DGB
-    ACEITA --> |Não| IMPERT
-
+    RESULT --> |Pertinência| PROC(("➡️ Encaminha à Procuradoria")):::entrada
     RESULT --> |Impertinência| IMPERT["⚠️ Encaminha à Presidência<br/>com notificação ao requerente"]:::rejeicao
 
-    style DGB stroke:#27AE60,stroke-width:3px,color:#1E8449
+    style PROC stroke:#27AE60,stroke-width:3px,color:#1E8449

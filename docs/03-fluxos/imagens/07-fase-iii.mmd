@@ -1,4 +1,4 @@
-﻿flowchart TD
+flowchart TD
     classDef fase3 fill:#FDEBD0,stroke:#E67E22,stroke-width:2px,color:#935116
     classDef documento fill:#E8DAEF,stroke:#8E44AD,stroke-width:2px,color:#6C3483
     classDef inicio fill:#FFFFFF,stroke:#2C3E50,stroke-width:2px,color:#2C3E50
@@ -12,7 +12,7 @@
 
     ENC --> VERIF["📋 ITERPA: Verificação de Documentos<br/>Solicitar atualização dos vencidos"]:::iterpa
 
-    VERIF --> MINUTA["📄 ITERPA: Elaboração de Minuta de Escritura<br/><b>Prazo: 15d úteis</b><br/>Cláusulas obrigatórias (Art. 20)"]:::iterpa
+    VERIF --> MINUTA["📄 ITERPA: Elaboração de Minuta de Escritura<br/>Cláusulas obrigatórias (Art. 20)"]:::iterpa
 
     MINUTA --> CLAUSULAS["📝 Cláusulas da Escritura"]:::fase3
 
@@ -27,11 +27,11 @@
 
     C8 --> LAV["📝 Lavratura da Escritura<br/>Cartório de Notas competente<br/><b>Despesas: Doador (regra geral)</b>"]:::fase3
 
-    LAV --> REG["📋 Registro no Cartório de Imóveis<br/><b>Prazo: 30 dias corridos</b>"]:::fase3
+    LAV --> REG["📋 Registro no Cartório de Imóveis<br/><b>Prazo: 30 dias corridos (Art. 21)</b>"]:::fase3
 
     REG --> COM["📤 ITERPA comunica IDEFLOR-Bio<br/>Incorporação ao patrimônio do Estado<br/>+ Atualização do CNUC"]:::iterpa
 
-    COM --> CCI["📜 Certidão de Conclusão de Incorporação<br/><b>Prazo: 10d úteis</b><br/>Matrícula + Área + UCES + Modalidade + Créditos"]:::documento
+    COM --> CCI["📜 Certidão de Conclusão de Incorporação<br/>Matrícula + Área + UCES + Modalidade + Créditos"]:::documento
 
     CCI --> FIM(("✅ PROCESSO CONCLUÍDO")):::inicio
 

@@ -31,10 +31,10 @@ Sistema para viabilizar a **Instrução Normativa Conjunta ITERPA/IDEFLOR-Bio**,
 
 A IN define um processo **estritamente sequencial em 3 fases**:
 
-| Fase | Responsável | Produto | Prazo estimado |
+| Fase | Responsável | Produto | Prazo (SLA Operacional sugerido) |
 |------|------------|---------|---------------|
 | **I** | ITERPA | CACLG (Certidão de Autenticidade, Correspondência de Localização e Localização Georreferenciada) | ~50 dias úteis |
-| **II** | IDEFLOR-Bio | CH (Certidão de Habilitação) | ~65 dias úteis |
+| **II** | IDEFLOR-Bio | CH (Certidão de Habilitação) | ~50 dias úteis |
 | **III** | ITERPA + IDEFLOR-Bio | Escritura registrada + Certidão de Conclusão de Incorporação | ~55 dias corridos |
 
 ### Modalidades de Incorporação
@@ -48,6 +48,6 @@ A IN define um processo **estritamente sequencial em 3 fases**:
 
 **Fase I (ITERPA):** Análise formal → Análise georreferenciamento → Parecer jurídico → Emissão CACLG
 
-**Fase II (IDEFLOR-Bio):** NGEO (sensoriamento remoto) → DGMUC (pertinência) → DGB (compatibilidade ambiental) → Procuradoria (jurídico) → Presidência (deliberação) → Emissão CH
+**Fase II (IDEFLOR-Bio):** NGEO (sensoriamento remoto) → DGMUC (pertinência) → Procuradoria (jurídico) → Presidência (deliberação) → Emissão CH
 
 **Fase III (ITERPA + IDEFLOR-Bio):** Minuta de escritura → Lavratura → Registro → Certidão de Conclusão

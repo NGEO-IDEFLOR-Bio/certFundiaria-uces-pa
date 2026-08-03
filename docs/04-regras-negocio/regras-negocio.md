@@ -9,7 +9,7 @@
 | RN-01 | Sequencialidade obrigatória | O processo observa 3 fases estritamente sequenciais; não é possível avançar sem conclusão da fase anterior e emissão do instrumento certificatório | Art. 2º, §único |
 | RN-02 | CACLG como porta de entrada | A Fase II somente se inicia com CACLG emitida pelo ITERPA e remessa formal do processo ao IDEFLOR-Bio | Art. 10, §2º |
 | RN-03 | CH como condição para Fase III | A Certidão de Habilitação é condição necessária para início da Fase III | Art. 16, IX |
-| RN-04 | Distribuição sequencial interna | Na Fase II, o processo segue obrigatoriamente: NGEO → DGMUC → DGB → Procuradoria → Presidência, sem pular etapas | Art. 11, §único |
+| RN-04 | Distribuição sequencial interna | Na Fase II, o processo segue obrigatoriamente: NGEO → DGMUC → Procuradoria → Presidência, sem pular etapas | Art. 11, parágrafo único |
 
 ## 2. Regras de Modalidades
 
@@ -27,12 +27,11 @@
 | RN-09 | Pendência dominial | É vedada a incorporação de imóveis com pendências na cadeia dominial não sanadas, incluindo sobreposição com áreas públicas federais/estaduais/municipais não resolvidas | Art. 6º, I |
 | RN-10 | Litígio judicial/administrativo | É vedada a incorporação de imóveis objeto de litígio que comprometa a transmissão do domínio | Art. 6º, II |
 | RN-11 | Passivo ambiental consolidado | É vedada a incorporação de imóveis com passivos ambientais consolidados incompatíveis com os objetivos da UCES | Art. 6º, III |
-| RN-12 | Sobreposição georreferenciada | É vedada a incorporação quando o georreferenciamento apresenta sobreposição com propriedades certificadas INCRA ou áreas de comunidades quilombolas/indígenas/tradicionais | Art. 6º, IV |
+| RN-12 | Sobreposição georreferenciada | É vedada a incorporação quando o imóvel se sobrepõe com áreas de regularização fundiária de comunidades indígenas, quilombolas ou tradicionais | Art. 6º, IV |
 | RN-13 | CAR inativo/irregular | É vedada a incorporação de imóveis sem CAR ativo e regular no SICAR | Art. 6º, V |
-| RN-14 | Área inferior ao módulo fiscal | É vedada a incorporação de imóveis com área inferior ao módulo fiscal do município, salvo complementação de perímetro de UCES | Art. 6º, VI |
-| RN-15 | Edificações incompatíveis | É vedada a incorporação de imóveis com edificações incompatíveis com os objetivos da UCES receptora, salvo plano de adequação aprovado | Art. 6º, VII |
-| RN-16 | Superação de impedimentos I e II | Pendências dominiais e litígios podem ser superados com sentença transitada em julgado ou decisão administrativa definitiva | Art. 6º, §1º |
-| RN-17 | Ocupações tradicionais | Ocupações tradicionais não impedem a incorporação, desde que compatíveis com os objetivos da UCES e sujeitas a Termo de Acordo | Art. 6º, §2º |
+| RN-15 | Edificações incompatíveis | É vedada a incorporação de imóveis com edificações incompatíveis com os objetivos da UCES receptora, salvo plano de adequação aprovado | Art. 6º, VI |
+| RN-16 | Superação de impedimentos I e II | Pendências dominiais e litígios podem ser superados com sentença transitada em julgado ou decisão administrativa definitiva | Art. 6º, Parágrafo único |
+| RN-17 | Ocupações tradicionais | Ocupações tradicionais não impedem a incorporação, desde que compatíveis com os objetivos da UCES e sujeitas a Termo de Acordo | Art. 24, §2º |
 
 ## 4. Regras de Documentação
 
@@ -56,10 +55,8 @@
 | ID | Regra | Descrição | Ref. IN |
 |----|-------|-----------|---------|
 | RN-25 | Análise NGEO | O NGEO deve confirmar localização, verificar cobertura vegetal, identificar edificações, verificar passivos ambientais, avaliar compatibilidade com UCES, indicar sobreposição com Plano de Gestão e vocação para compensação florestal | Art. 12 |
-| RN-26 | Resultados DGMUC | A DGMUC pode concluir por: (a) pertinência, (b) pertinência com redirecionamento, (c) impertinência | Art. 13, §1º |
+| RN-26 | Resultados DGMUC | A DGMUC pode concluir por: (a) pertinência, (b) impertinência | Art. 13, §1º |
 | RN-27 | Impertinência | Em caso de impertinência, o processo é encaminhado à Presidência com notificação ao requerente | Art. 13, §2º |
-| RN-28 | Redirecionamento | Em caso de recomendação de redirecionamento, o requerente é consultado sobre UCES alternativa (10 dias úteis) | Art. 13, §3º |
-| RN-29 | Passivos recuperáveis | Passivos ambientais recuperáveis e compatíveis com os objetivos da UCES geram condicionantes incluídas na CH e na escritura | Art. 21, §2º |
 | RN-30 | Resultados Presidência | O Diretor-Presidente pode: (a) deferir com/sem condicionantes, (b) indeferir fundamentadamente, (c) determinar diligências complementares | Art. 15, §1º |
 
 ## 7. Regras de Transferência - Fase III
@@ -89,7 +86,6 @@
 |----|-------|-----------|---------|
 | RN-42 | Registro de créditos | O IDEFLOR-Bio mantém sistema informatizado com: identificação, imóvel, modalidade, crédito disponível, histórico, data de vencimento | Art. 26 |
 | RN-43 | Utilização perante SEMAS | Créditos podem ser utilizados perante a SEMAS para regularização ambiental | Art. 27, I |
-| RN-44 | Utilização perante ITERPA | Créditos podem ser utilizados perante o ITERPA para regularização fundiária com contrapartida ambiental | Art. 27, II |
 | RN-45 | Redução imediata | A utilização de créditos é registrada com imediata redução do saldo disponível | Art. 27, §2º |
 
 ## 10. Princípios Norteadores

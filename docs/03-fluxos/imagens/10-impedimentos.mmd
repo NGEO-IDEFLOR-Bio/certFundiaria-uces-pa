@@ -1,4 +1,4 @@
-﻿flowchart TD
+flowchart TD
     classDef bloqueio fill:#FADBD8,stroke:#C0392B,stroke-width:2px,color:#922B21
     classDef exececao fill:#FEF9E7,stroke:#F4D03F,stroke-width:2px,color:#7D6608
     classDef check fill:#D6EAF8,stroke:#2980B9,stroke-width:2px,color:#1B4F72
@@ -21,21 +21,17 @@
     V3 --> |Sim| B3["🚫 VEDADO<br/>Incompatível com objetivos da UCES"]:::bloqueio
     V3 --> |Não| OK3["✅ Passou"]:::ok
 
-    OK3 --> V4{"4. Sobreposição com propriedades certificadas ou áreas de comunidades?"}:::check
-    V4 --> |Sim| B4["🚫 VEDADO<br/>Quilombolas, indígenas ou tradicionais"]:::bloqueio
+    OK3 --> V4{"4. Sobreposição com áreas de regularização de comunidades?"}:::check
+    V4 --> |Sim| B4["🚫 VEDADO<br/>Indígenas, quilombolas ou tradicionais"]:::bloqueio
     V4 --> |Não| OK4["✅ Passou"]:::ok
 
     OK4 --> V5{"5. CAR inativo ou irregular no SICAR?"}:::check
     V5 --> |Sim| B5["🚫 VEDADO<br/>CAR deve estar ativo e regular"]:::bloqueio
     V5 --> |Não| OK5["✅ Passou"]:::ok
 
-    OK5 --> V6{"6. Área inferior ao módulo fiscal?"}:::check
-    V6 --> |Sim| E1["⚠️ VEDADO<br/><b>Salvo complementação de perímetro de UCES</b>"]:::exececao
-    V6 --> |Não| OK6["✅ Passou"]:::ok
-
-    OK6 --> V7{"7. Edificações incompatíveis com UCES?"}:::check
-    V7 --> |Sim| E2["⚠️ VEDADO<br/><b>Salvo plano de adequação aprovado pelo IDEFLOR-Bio</b>"]:::exececao
-    V7 --> |Não| APROVADO["✅ IMÓVEL HABILITADO para prosseguimento"]:::ok
+    OK5 --> V6{"6. Edificações incompatíveis com UCES?"}:::check
+    V6 --> |Sim| E1["⚠️ VEDADO<br/><b>Salvo plano de adequação aprovado pelo IDEFLOR-Bio</b>"]:::exececao
+    V6 --> |Não| APROVADO["✅ IMÓVEL HABILITADO para prosseguimento"]:::ok
 
     style TITULO stroke-width:3px
     style B1 stroke-width:2px
@@ -44,5 +40,4 @@
     style B4 stroke-width:2px
     style B5 stroke-width:2px
     style E1 stroke-width:2px
-    style E2 stroke-width:2px
     style APROVADO stroke-width:4px

@@ -1,4 +1,4 @@
-﻿flowchart TD
+flowchart TD
     classDef iterpa fill:#D6EAF8,stroke:#2980B9,stroke-width:2px,color:#1B4F72
     classDef documento fill:#E8DAEF,stroke:#8E44AD,stroke-width:2px,color:#6C3483
     classDef decisao fill:#FFF9C4,stroke:#F1C40F,stroke-width:2px,color:#5D4037
@@ -8,20 +8,20 @@
     REQ["🧑 Requerente protocola requerimento<br/>físico ou eletrônico (SICARF)"]:::inicio
     --> MOD{"Indica UCES e modalidade?<br/><i>Se não: Doação Antecipada</i>"}:::decisao
 
-    MOD --> |Sim ou Não| AF["📋 Análise Formal da Documentação<br/><b>Prazo: 10 dias úteis</b>"]:::iterpa
+    MOD --> |Sim ou Não| AF["📋 Análise Formal da Documentação"]:::iterpa
 
     AF --> DOCOK{"Documentação completa?"}:::decisao
 
-    DOCOK --> |Não| COMP["📤 Notificação para complementação<br/><b>Prazo: 30 dias corridos</b>"]:::rejeicao
+    DOCOK --> |Não| COMP["📤 Notificação para complementação"]:::rejeicao
     COMP --> AF
 
-    DOCOK --> |Sim| GEO["🗺️ Análise Técnica do Georreferenciamento<br/><b>Prazo: 20 dias úteis</b><br/>Correspondência com UCES<br/>Inexistência de óbices fundiários<br/>Necessidade de ratificação/retificação"]:::iterpa
+    DOCOK --> |Sim| GEO["🗺️ Análise Técnica do Georreferenciamento<br/>Correspondência com UCES<br/>Inexistência de óbices fundiários<br/>Necessidade de ratificação/retificação"]:::iterpa
 
-    GEO --> PJ["⚖️ Parecer Jurídico - Procuradoria ITERPA<br/><b>Prazo: 15 dias úteis</b>"]:::iterpa
+    GEO --> PJ["⚖️ Parecer Jurídico - Procuradoria ITERPA"]:::iterpa
 
     PJ --> DP{"Decisão do Diretor-Presidente"}:::decisao
 
-    DP --> |Aprovação| EMIT["📜 Emissão da CACLG<br/><b>Prazo: 5 dias úteis</b>"]:::documento
+    DP --> |Aprovação| EMIT["📜 Emissão da CACLG"]:::documento
     DP --> |Reprovação| NAO["❌ Notificação ao requerente<br/>Possibilidade de regularização (Art. 23)"]:::rejeicao
 
     EMIT --> CACLG["✅ CACLG Emitida<br/>Menção: imóvel habilitado para Fase II<br/>+ Peças técnicas e jurídicas"]:::documento
