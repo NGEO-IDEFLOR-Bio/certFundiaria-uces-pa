@@ -337,7 +337,7 @@ html_content = '''<!DOCTYPE html>
                             <h3 class="text-sm font-bold text-white mb-1">FASE I — Análise Dominial (ITERPA)</h3>
                             <span class="text-[10px] text-sky-400 font-mono block mb-3">SLA Operacional: ~50 Dias Úteis</span>
                             <p class="text-xs text-slate-300 leading-relaxed">
-                                Análise da cadeia dominial, autoria do registro de imóveis, validação do georreferenciamento e parecer da Procuradoria Jurídica do ITERPA. 
+                                Análise da cadeia dominial, autoria do registro de imóveis, validação do georreferenciamento e parecer jurídico da Procuradoria Jurídica do ITERPA. 
                                 <strong class="text-white block mt-2">Produto: CACLG (Certidão de Autenticidade e Localização)</strong>
                             </p>
                         </div>
@@ -522,25 +522,47 @@ html_content = '''<!DOCTYPE html>
                 </div>
             </div>
 
-            <!-- FOLDER 6: AUDITORIA & PACOTE DE DOCUMENTOS DE PRODUTO -->
-            <div class="folder" id="pasta-auditoria">
+            <!-- FOLDER 6: CONSOLIDAÇÃO NORMATIVA & IMPLEMENTAÇÃO DO SISTEMA -->
+            <div class="folder" id="pasta-implementacao">
                 <div class="folder-tab">
                     <span class="folder-tab-badge"></span>
-                    <span>VI. RESULTADO DA AUDITORIA & ACERVO DE PRODUTOS</span>
+                    <span>VI. CONSOLIDAÇÃO NORMATIVA & PACOTE DE IMPLEMENTAÇÃO</span>
                 </div>
                 <div class="folder-body">
                     <div class="flex flex-col lg:flex-row lg:items-center justify-between border-b border-slate-800 pb-4 mb-6 gap-4">
                         <div>
-                            <span class="text-xs font-mono uppercase text-amber-400 tracking-wider">Conclusão da Auditoria de 07/10/2026</span>
-                            <h2 class="text-2xl font-bold text-white mt-1">Saneamento Documental e Validação Normativa</h2>
+                            <span class="text-xs font-mono uppercase text-amber-400 tracking-wider">Diretrizes Práticas de Implantação e Transparência</span>
+                            <h2 class="text-2xl font-bold text-white mt-1">Prontidão para Implantação Operacional</h2>
                         </div>
                     </div>
 
-                    <div class="bg-slate-900/90 p-5 rounded-xl border border-slate-800 mb-4">
-                        <h3 class="text-xs font-bold text-amber-400 uppercase tracking-wider mb-2">Ações Concluídas na Auditoria Especializada</h3>
-                        <p class="text-xs text-slate-300 leading-relaxed">
-                            A duplicidade de minutas foi completamente resolvida: a IN assinada de 30/06/2026 foi promovida a documento canônico em <code class="text-amber-300">docs/00-in-original/</code>, enquanto a minuta V1 obsoleta foi arquivada em histórico. Todos os 7 documentos de requisitos, fluxos, regras de negócio e prazos foram harmonizados.
-                        </p>
+                    <div class="grid md:grid-cols-3 gap-6 mb-4">
+                        <div class="bg-slate-900/90 p-5 rounded-xl border border-slate-800">
+                            <div class="text-amber-400 font-bold text-xs uppercase mb-2 flex items-center">
+                                <i class="fa-solid fa-building-columns mr-2"></i> 1. Publicação no DOE
+                            </div>
+                            <p class="text-xs text-slate-300 leading-relaxed">
+                                Instrução Normativa Conjunta 2026 assinada e pronta para vigência plena no Diário Oficial do Estado do Pará.
+                            </p>
+                        </div>
+
+                        <div class="bg-slate-900/90 p-5 rounded-xl border border-slate-800">
+                            <div class="text-amber-400 font-bold text-xs uppercase mb-2 flex items-center">
+                                <i class="fa-solid fa-code-merge mr-2"></i> 2. Integração com SICARF & SEINUC
+                            </div>
+                            <p class="text-xs text-slate-300 leading-relaxed">
+                                Interoperabilidade dos dados cadastrais e espaciais com o SICARF/SEMAS e a plataforma SEINUC/PA.
+                            </p>
+                        </div>
+
+                        <div class="bg-slate-900/90 p-5 rounded-xl border border-slate-800">
+                            <div class="text-amber-400 font-bold text-xs uppercase mb-2 flex items-center">
+                                <i class="fa-solid fa-shield-check mr-2"></i> 3. Gestão Única de Créditos
+                            </div>
+                            <p class="text-xs text-slate-300 leading-relaxed">
+                                Regra de integridade para rastreabilidade de créditos de compensação sem risco de duplicidade de contabilização.
+                            </p>
+                        </div>
                     </div>
 
                     <p class="text-xs text-slate-400 italic text-center">
@@ -652,4 +674,4 @@ html_content = '''<!DOCTYPE html>
 with open('index.html', 'w', encoding='utf-8') as f:
     f.write(html_content)
 
-print("index.html for cert-fundiaria-iterpa-ideflor created successfully.")
+print("index.html clean product presentation updated successfully.")
