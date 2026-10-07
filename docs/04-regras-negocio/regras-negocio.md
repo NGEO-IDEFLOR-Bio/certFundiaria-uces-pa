@@ -29,64 +29,64 @@
 | RN-11 | Passivo ambiental consolidado | É vedada a incorporação de imóveis com passivos ambientais consolidados incompatíveis com os objetivos da UCES | Art. 6º, III |
 | RN-12 | Sobreposição georreferenciada | É vedada a incorporação quando o imóvel se sobrepõe com áreas de regularização fundiária de comunidades indígenas, quilombolas ou tradicionais | Art. 6º, IV |
 | RN-13 | CAR inativo/irregular | É vedada a incorporação de imóveis sem CAR ativo e regular no SICAR | Art. 6º, V |
-| RN-15 | Edificações incompatíveis | É vedada a incorporação de imóveis com edificações incompatíveis com os objetivos da UCES receptora, salvo plano de adequação aprovado | Art. 6º, VI |
-| RN-16 | Superação de impedimentos I e II | Pendências dominiais e litígios podem ser superados com sentença transitada em julgado ou decisão administrativa definitiva | Art. 6º, Parágrafo único |
-| RN-17 | Ocupações tradicionais | Ocupações tradicionais não impedem a incorporação, desde que compatíveis com os objetivos da UCES e sujeitas a Termo de Acordo | Art. 24, §2º |
+| RN-14 | Edificações incompatíveis | É vedada a incorporação de imóveis com edificações incompatíveis com os objetivos da UCES receptora, salvo plano de adequação aprovado | Art. 6º, VI |
+| RN-15 | Superação de impedimentos I e II | Pendências dominiais e litígios podem ser superados com sentença transitada em julgado ou decisão administrativa definitiva | Art. 6º, Parágrafo único |
+| RN-16 | Ocupações tradicionais | Ocupações tradicionais não impedem a incorporação, desde que compatíveis com os objetivos da UCES e sujeitas a Termo de Acordo | Art. 24, §2º |
 
 ## 4. Regras de Documentação
 
 | ID | Regra | Descrição | Ref. IN |
 |----|-------|-----------|---------|
-| RN-18 | Documentação CACLG | O requerimento de CACLG exige: (a) documentação IN ITERPA 001/2022, (b) indicação de UCES, (c) indicação de modalidade, (d) extrato atualizado do CAR no SICAR, (e) relatório de sobreposição | Art. 8º |
-| RN-19 | Documentação complementar | O ITERPA pode exigir documentação complementar prevista em normativa específica | Art. 8º, §único |
-| RN-20 | Requerimento físico ou eletrônico | O requerimento pode ser apresentado por meio físico ou eletrônico (SICARF) | Art. 7º, §1º |
-| RN-21 | CACLG vinculada ou autônoma | A CACLG pode ser requerida com ou sem vinculação a processo de compensação em curso; no segundo caso é instrumento autônomo | Art. 7º, §5º |
+| RN-17 | Documentação CACLG | O requerimento de CACLG exige: (a) documentação exigida pela legislação vigente, (b) indicação de UCES, (c) indicação de modalidade, (d) extrato atualizado do CAR no SICAR | Art. 8º |
+| RN-18 | Documentação complementar | O ITERPA pode exigir documentação complementar prevista em normativa específica | Art. 8º, §único |
+| RN-19 | Requerimento físico ou eletrônico | O requerimento pode ser apresentado por meio físico ou eletrônico (SICARF) | Art. 7º, §1º |
+| RN-20 | CACLG vinculada ou autônoma | A CACLG pode ser requerida com ou sem vinculação a processo de compensação em curso; no segundo caso é instrumento autônomo | Art. 7º, §5º |
 
 ## 5. Regras de Análise - Fase I (ITERPA)
 
 | ID | Regra | Descrição | Ref. IN |
 |----|-------|-----------|---------|
-| RN-22 | Verificações adicionais ITERPA | Além da IN ITERPA 001/2022, o ITERPA deve verificar: (a) correspondência geoespacial com UCES, (b) inexistência de óbices fundiários, (c) necessidade de ratificação/retificação | Art. 9º |
-| RN-23 | Regularização dominial prévia | Divergências entre área do título e área levantada exigem procedimentos de ratificação/retificação antes da emissão da CACLG | Art. 23 |
-| RN-24 | Antecipação de análise florestal | O ITERPA pode antecipar análise de cobertura florestal, remetendo subsídios ao IDEFLOR-Bio | Art. 10, §1º |
+| RN-21 | Verificações adicionais ITERPA | Além da legislação vigente, o ITERPA deve verificar: (a) correspondência geoespacial com UCES, (b) inexistência de óbices fundiários, (c) necessidade de ratificação/retificação | Art. 9º |
+| RN-22 | Regularização dominial prévia | Divergências entre área do título e área levantada exigem procedimentos de ratificação/retificação antes da emissão da CACLG | Art. 23 |
+| RN-23 | Antecipação de análise florestal | O ITERPA pode antecipar análise de cobertura florestal, remetendo subsídios ao IDEFLOR-Bio | Art. 10, §1º |
 
 ## 6. Regras de Análise - Fase II (IDEFLOR-Bio)
 
 | ID | Regra | Descrição | Ref. IN |
 |----|-------|-----------|---------|
-| RN-25 | Análise NGEO | O NGEO deve confirmar localização, verificar cobertura vegetal, identificar edificações, verificar passivos ambientais, avaliar compatibilidade com UCES, indicar sobreposição com Plano de Gestão e vocação para compensação florestal | Art. 12 |
-| RN-26 | Resultados DGMUC | A DGMUC pode concluir por: (a) pertinência, (b) impertinência | Art. 13, §1º |
-| RN-27 | Impertinência | Em caso de impertinência, o processo é encaminhado à Presidência com notificação ao requerente | Art. 13, §2º |
-| RN-30 | Resultados Presidência | O Diretor-Presidente pode: (a) deferir com/sem condicionantes, (b) indeferir fundamentadamente, (c) determinar diligências complementares | Art. 15, §1º |
+| RN-24 | Análise NGEO | O NGEO deve confirmar localização, verificar cobertura vegetal, identificar edificações, verificar passivos ambientais, avaliar compatibilidade com UCES, indicar sobreposição com Plano de Gestão e vocação para compensação florestal | Art. 12 |
+| RN-25 | Resultados DGMUC | A DGMUC pode concluir por: (a) pertinência, (b) impertinência | Art. 13, §1º |
+| RN-26 | Impertinência | Em caso de impertinência, o processo é encaminhado à Presidência com notificação ao requerente | Art. 13, §2º |
+| RN-27 | Resultados Presidência | O Diretor-Presidente pode: (a) deferir com/sem condicionantes, (b) indeferir fundamentadamente, (c) determinar diligências complementares | Art. 15, §1º |
 
 ## 7. Regras de Transferência - Fase III
 
 | ID | Regra | Descrição | Ref. IN |
 |----|-------|-----------|---------|
-| RN-31 | Iniciativa do Doador | A Fase III se inicia mediante requerimento do Doador ao IDEFLOR-Bio | Art. 18 |
-| RN-32 | Coordenação pelo ITERPA | O IDEFLOR-Bio encaminha o requerimento ao ITERPA, que coordena os procedimentos cartoriais | Art. 18, §único |
-| RN-33 | Cláusulas obrigatórias da escritura | A escritura deve conter: qualificação, descrição geo, declaração de livre e desembaraçado, aceite do Estado, destinação à UCES, modalidade, condicionantes, ocupações tradicionais | Art. 20 |
-| RN-34 | Despesas cartorárias | Despesas com escritura e registro são de responsabilidade do Doador, salvo decisão fundamentada em interesse público | Art. 21, §1º |
-| RN-35 | Registro imobiliário | Registro deve ser efetuado em até 30 dias corridos após lavratura | Art. 21 |
-| RN-36 | Comunicação ao IDEFLOR-Bio | Após registro, ITERPA comunica IDEFLOR-Bio para atualização do CNUC | Art. 21, §2º |
+| RN-28 | Iniciativa do Doador | A Fase III se inicia mediante requerimento do Doador ao IDEFLOR-Bio | Art. 18 |
+| RN-29 | Coordenação pelo ITERPA | O IDEFLOR-Bio encaminha o requerimento ao ITERPA, que coordena os procedimentos cartoriais | Art. 18, §único |
+| RN-30 | Cláusulas obrigatórias da escritura | A escritura deve conter: qualificação, descrição geo, declaração de livre e desembaraçado, aceite do Estado, destinação à UCES, modalidade, condicionantes, ocupações tradicionais | Art. 20 |
+| RN-31 | Despesas cartorárias | Despesas com escritura e registro são de responsabilidade do Doador, salvo decisão fundamentada em interesse público | Art. 21, §1º |
+| RN-32 | Registro imobiliário | Registro deve ser efetuado em até 30 dias corridos após lavratura | Art. 21 |
+| RN-33 | Comunicação ao IDEFLOR-Bio | Após registro, ITERPA comunica IDEFLOR-Bio para atualização do CNUC | Art. 21, §2º |
 
 ## 8. Regras de Ocupações e Benfeitorias
 
 | ID | Regra | Descrição | Ref. IN |
 |----|-------|-----------|---------|
-| RN-37 | Ocupações compatíveis | Ocupações tradicionais compatíveis geram Termo de Acordo entre IDEFLOR-Bio e ocupantes | Art. 24, §2º |
-| RN-38 | Ocupações incompatíveis | Ocupações incompatíveis geram plano de realocação ou adequação | Art. 24, §3º |
-| RN-39 | Benfeitorias compatíveis | Benfeitorias compatíveis podem ser mantidas, com cláusula específica na escritura | Art. 25, §1º |
-| RN-40 | Benfeitorias incompatíveis | Benfeitorias incompatíveis devem ser removidas pelo Doador antes da escritura, salvo anuência do IDEFLOR-Bio para remoção posterior com Termo de Compromisso | Art. 25, §2º |
-| RN-41 | Avaliação de benfeitorias | Benfeitorias são avaliadas quanto à compatibilidade em prazo de 2 anos, prorrogáveis por mais 2 anos | Art. 25 |
+| RN-34 | Ocupações compatíveis | Ocupações tradicionais compatíveis geram Termo de Acordo entre IDEFLOR-Bio e ocupantes | Art. 24, §2º |
+| RN-35 | Ocupações incompatíveis | Ocupações incompatíveis geram plano de realocação ou adequação | Art. 24, §3º |
+| RN-36 | Benfeitorias compatíveis | Benfeitorias compatíveis podem ser mantidas, com cláusula específica na escritura | Art. 25, §1º |
+| RN-37 | Benfeitorias incompatíveis | Benfeitorias incompatíveis devem ser removidas pelo Doador antes da escritura, salvo anuência do IDEFLOR-Bio para remoção posterior com Termo de Compromisso | Art. 25, §2º |
+| RN-38 | Avaliação de benfeitorias | Benfeitorias são avaliadas quanto à compatibilidade em prazo de 2 anos, prorrogáveis por mais 2 anos | Art. 25 |
 
 ## 9. Regras de Créditos de Compensação
 
 | ID | Regra | Descrição | Ref. IN |
 |----|-------|-----------|---------|
-| RN-42 | Registro de créditos | O IDEFLOR-Bio mantém sistema informatizado com: identificação, imóvel, modalidade, crédito disponível, histórico, data de vencimento | Art. 26 |
-| RN-43 | Utilização perante SEMAS | Créditos podem ser utilizados perante a SEMAS para regularização ambiental | Art. 27, I |
-| RN-45 | Redução imediata | A utilização de créditos é registrada com imediata redução do saldo disponível | Art. 27, §2º |
+| RN-39 | Registro de créditos | O IDEFLOR-Bio mantém sistema informatizado com: identificação, imóvel, modalidade, crédito disponível, histórico, data de vencimento | Art. 26 |
+| RN-40 | Utilização perante SEMAS | Créditos podem ser utilizados perante a SEMAS para regularização ambiental | Art. 27, I |
+| RN-41 | Redução imediata | A utilização de créditos é registrada com imediata redução do saldo disponível | Art. 27, §2º |
 
 ## 10. Princípios Norteadores
 
@@ -104,8 +104,8 @@
 
 | ID | Regra | Descrição | Ref. IN |
 |----|-------|-----------|---------|
-| RN-46 | Processos em curso | Processos em curso na data de publicação serão adequados aos novos procedimentos, preservando-se os atos já praticados | Art. 31 |
-| RN-47 | Omissões | Omissões supridas por decisão conjunta dos Diretores-Presidentes do ITERPA e IDEFLOR-Bio | Art. 32 |
-| RN-48 | Atos complementares | ITERPA e IDEFLOR-Bio podem publicar atos normativos complementares, incluindo modelos de requerimentos, certidões, escrituras e termos | Art. 30 |
-| RN-49 | Acordo de Cooperação | Os órgãos podem celebrar ACT para compartilhamento de sistemas, bases cartográficas e outros recursos | Art. 29 |
-| RN-50 | Vigência | A IN entra em vigor na data de publicação no Diário Oficial do Estado do Pará | Art. 33 |
+| RN-42 | Processos em curso | Processos em curso na data de publicação serão adequados aos novos procedimentos, preservando-se os atos já praticados | Art. 31 |
+| RN-43 | Omissões | Omissões supridas por decisão conjunta dos Diretores-Presidentes do ITERPA e IDEFLOR-Bio | Art. 32 |
+| RN-44 | Atos complementares | ITERPA e IDEFLOR-Bio podem publicar atos normativos complementares, incluindo modelos de requerimentos, certidões, escrituras e termos | Art. 30 |
+| RN-45 | Acordo de Cooperação | Os órgãos podem celebrar ACT para compartilhamento de sistemas, bases cartográficas e outros recursos | Art. 29 |
+| RN-46 | Vigência | A IN entra em vigor na data de publicação no Diário Oficial do Estado do Pará | Art. 33 |

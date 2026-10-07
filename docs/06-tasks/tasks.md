@@ -46,11 +46,11 @@ Monitoramento de prazos, notificações e dashboard de acompanhamento.
 - **Quero** enviar a documentação obrigatória digitalmente
 - **Para** instruction o processo
 - **Critérios de aceite**:
-  - Documentação exigida pela IN ITERPA 001/2022 (checklist configurável)
+  - Documentação exigida pela legislação vigente (checklist configurável)
   - Indicação da UCES de interesse
   - Indicação da modalidade de incorporação
   - Extrato atualizado do CAR no SICAR
-  - Relatório de sobreposição com áreas protegidas
+  - Verificação de sobreposição com áreas protegidas, TI, TQ e imóveis públicos (realizada na análise técnica - Arts. 9º, I e 12)
   - O ITERPA pode exigir documentação complementar
 - **Ref. IN**: Art. 8º
 
@@ -197,7 +197,7 @@ Monitoramento de prazos, notificações e dashboard de acompanhamento.
   - Emitir nota técnica: pertinência ou impertinência
 - **Ref. IN**: Art. 13
 
-### STORY-03.5: Análise Jurídica (Procuradoria)
+### STORY-03.4: Análise Jurídica (Procuradoria)
 - **Como** procurador do IDEFLOR-Bio
 - **Quero** realizar a análise jurídica
 - **Para** verificar regularidade e legalidade
@@ -211,7 +211,7 @@ Monitoramento de prazos, notificações e dashboard de acompanhamento.
   - Identificar irregularidades sanáveis
 - **Ref. IN**: Art. 14
 
-### STORY-03.6: Deliberação e Emissão da CH
+### STORY-03.5: Deliberação e Emissão da CH
 - **Como** Diretor-Presidente do IDEFLOR-Bio
 - **Quero** deliberar e emitir a Certidão de Habilitação
 - **Para** habilitar ou não o imóvel para Fase III
@@ -315,7 +315,7 @@ Monitoramento de prazos, notificações e dashboard de acompanhamento.
 - **Critérios de aceite**:
   - Recebimento de requerimentos eletrônicos
   - Indicação expressa de que o pedido se destina a fins desta IN
-  - URL: https://sicarf.semas.pa.gov.br
+  - URL: https://sicarf.pa.gov.br
 - **Ref. IN**: Art. 7º, §2º
 
 ### STORY-06.2: Integração com SICAR
@@ -380,7 +380,7 @@ Monitoramento de prazos, notificações e dashboard de acompanhamento.
   - Alertas visuais e notificações baseados em SLAs internos configuráveis
   - Relatórios de tempo de ciclo por fase e por órgão
 
-### STORY-07.4: Relatórios Gerenciais
+### STORY-07.3: Relatórios Gerenciais
 - **Como** Diretor-Presidente
 - **Quero** gerar relatórios gerenciais
 - **Para** acompanhar estatísticas e tomar decisões

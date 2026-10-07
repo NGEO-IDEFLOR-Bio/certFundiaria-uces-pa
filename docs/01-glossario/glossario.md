@@ -36,7 +36,7 @@
 |-------|-------|-----------|---------|
 | Imóvel Doador | — | Imóvel rural privado, passível de incorporação ao patrimônio de UCES, mediante qualquer das modalidades previstas na IN | Art. 3º, II |
 | Cadeia Dominial | — | Sequência ininterrupta de transmissões de domínio sobre o imóvel, desde a origem do título até o atual proprietário, devidamente registrada no Cartório de Registro de Imóveis competente | Geral |
-| Georreferenciamento | — | Levantamento planimétrico do imóvel rural realizado com base em sistema geodésico de referência, conforme padrão técnico do INCRA, georreferenciando os vertices do imóvel ao Sistema Geodésico Brasileiro | Art. 3º, XII |
+| Georreferenciamento | — | Levantamento planimétrico do imóvel rural realizado com base em sistema geodésico de referência, conforme padrão técnico do INCRA, georreferenciando os vértices do imóvel ao Sistema Geodésico Brasileiro | Art. 3º, XII |
 | Certidão de Autenticidade, Correspondência de Localização e Localização Georreferenciada | CACLG | Documento expedido pelo ITERPA, atestando que o imóvel possui georreferenciamento válido e correspondência entre o título registrado e a localização geoespacial efetiva do imóvel, habilitando-o para prosseguimento ao IDEFLOR-Bio | Art. 3º, X |
 | Certidão de Habilitação | CH | Documento expedido pelo IDEFLOR-Bio, após conclusão da análise de pertinência e compatibilidade ambiental, atestando a elegibilidade do imóvel para incorporação em UCES determinada, com indicação da área habilitada em hectares para fins de compensação | Art. 3º, XI |
 | Certidão de Conclusão de Incorporação | — | Documento emitido pelo IDEFLOR-Bio após o registro do imóvel, contendo matrícula, área incorporada, UCES receptora, modalidade e créditos gerados | Art. 22 |
@@ -59,9 +59,9 @@
 
 | Termo | Definição | Ref. IN |
 |-------|-----------|---------|
-| SICARF | Plataforma eletrônica do ITERPA (https://sicarf.semas.pa.gov.br), módulo "Pedido de Certidão", para requerimento eletrônico da CACLG | Art. 7º, §2º |
+| SICARF | Plataforma eletrônica do ITERPA (https://sicarf.pa.gov.br), módulo "Pedido de Certidão", para requerimento eletrônico da CACLG | Art. 7º, §2º |
 | Sistema informatizado de créditos | Sistema de registro e controle dos créditos de compensação gerados pela incorporação de imóveis em UCES, mantido pelo IDEFLOR-Bio | Art. 26 |
-| CNUC | Cadastro Nacional de Unidades de Conservação, actualizado pelo IDEFLOR-Bio após registro do imóvel | Art. 21, §2º |
+| CNUC | Cadastro Nacional de Unidades de Conservação, atualizado pelo IDEFLOR-Bio após registro do imóvel | Art. 21, §2º |
 
 ## Outros Conceitos
 

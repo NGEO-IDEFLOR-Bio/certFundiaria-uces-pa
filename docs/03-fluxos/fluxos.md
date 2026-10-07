@@ -26,11 +26,11 @@ O fluxo principal e **estritamente sequencial** em 3 fases:
 
 ### Documentação Mínima - Fase I (Art. 8º)
 
-1. Documentação exigida pela IN ITERPA 001/2022 para CACLG
+1. Documentação exigida pela legislação vigente para CACLG
 2. Indicação da UCES de interesse
 3. Indicação da modalidade de incorporação pretendida
 4. Extrato atualizado do CAR no SICAR (situação ativa e regular)
-5. Relatório de sobreposição com áreas protegidas, TI, TQ e imóveis públicos (gerado na instrução)
+5. **Nota:** a verificação de sobreposição com áreas protegidas, TI, TQ e imóveis públicos é realizada na análise técnica do ITERPA (Art. 9º, I) e na Fase II (Art. 12), **não constituindo documento obrigatório da instrução** (Art. 8º).
 
 ---
 

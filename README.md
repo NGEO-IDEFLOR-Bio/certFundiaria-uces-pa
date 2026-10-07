@@ -7,24 +7,31 @@ Sistema para viabilizar a **Instrução Normativa Conjunta ITERPA/IDEFLOR-Bio**,
 | Documento | Descrição |
 |-----------|-----------|
 | [Glossário](docs/01-glossario/glossario.md) | Termos, siglas e definições extraídos do Art. 3º e disposições da IN |
-| [Requisitos](docs/02-requisitos/requisitos.md) | 49 requisitos funcionais + 11 não funcionais derivados da IN |
+| [Requisitos](docs/02-requisitos/requisitos.md) | 43 requisitos funcionais + 10 não funcionais derivados da IN 2026 |
 | [Fluxos e Processos](docs/03-fluxos/fluxos.md) | Diagramas Mermaid das 3 fases, recursos, créditos e impedimentos |
-| [Regras de Negócio](docs/04-regras-negocio/regras-negocio.md) | 50 regras de negócio + 7 princípios norteadores |
+| [Regras de Negócio](docs/04-regras-negocio/regras-negocio.md) | 46 regras de negócio + 7 princípios norteadores |
 | [Modelo de Dados](docs/05-modelo-dados/modelo-dados.md) | Modelo conceitual com 15+ entidades e enums |
-| [Backlog de Tasks](docs/06-tasks/tasks.md) | 7 épicos e 25+ user stories detalhadas |
+| [Backlog de Tasks](docs/06-tasks/tasks.md) | 7 épicos e 31 user stories detalhadas |
 | [Quadro de Prazos](docs/07-prazos/prazos.md) | Prazos por fase com gantt e timeline Mermaid |
+| [Auditoria](docs/08-auditoria/auditoria.md) | Relatório de auditoria técnica e jurídica do acervo |
+| [Acervo Original](docs/00-in-original/) | IN Conjunta ITERPA/IDEFLOR-Bio 2026 (PDF/TXT) — versão assinada |
+| [Histórico](docs/00-historico/) | Minuta anterior "ajustada V1" (arquivada) |
+| [Processo (pae)](pae/) | Despacho e manifestações do processo administrativo |
 
 ```
 ├── docs/
+│   ├── 00-in-original/      # IN Conjunta ITERPA/IDEFLOR-Bio 2026 (PDF e TXT) - versão assinada
+│   ├── 00-historico/        # Minuta anterior "ajustada V1" (arquivada)
 │   ├── 01-glossario/glossario.md
 │   ├── 02-requisitos/requisitos.md
 │   ├── 03-fluxos/fluxos.md
 │   ├── 04-regras-negocio/regras-negocio.md
 │   ├── 05-modelo-dados/modelo-dados.md
 │   ├── 06-tasks/tasks.md
-│   └── 07-prazos/prazos.md
-├── src/                     # Código-fonte (a definir)
-└── docs/00-in-original/     # Documento original da IN (PDF e DOCX)
+│   ├── 07-prazos/prazos.md
+│   └── 08-auditoria/auditoria.md
+├── pae/                     # Despacho e manifestações do processo administrativo
+└── src/                     # Código-fonte (a definir)
 ```
 
 ## Resumo da IN

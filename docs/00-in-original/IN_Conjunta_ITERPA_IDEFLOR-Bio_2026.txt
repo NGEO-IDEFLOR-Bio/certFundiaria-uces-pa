@@ -1,0 +1,512 @@
+--- PAGE 1 ---
+INSTRUÇÃO NORMATIVA CONJUNTA Nº ____/2026 — ITERPA /
+IDEFLOR-Bio
+Estabelece procedimentos para a certificação fundiária
+pelo ITERPA, a habilitação e o recebimento de imóveis
+rurais em Unidades de Conservação Estaduais do Pará
+pelo IDEFLOR-Bio, a título de compensação de áreas de
+floresta, doação voluntária e demais modalidades
+previstas em lei, e dá outras providências.
+O Diretor-Presidente do Instituto de Terras do Pará — ITERPA e o Diretor-Presidente
+do Instituto de Desenvolvimento Florestal e da Biodiversidade do Estado do Pará —
+IDEFLOR-Bio, no uso de suas atribuições legais, e
+CONSIDERANDO a competência do ITERPA para gestão das terras públicas estaduais,
+discriminação, arrecadação, regularização fundiária e expedição de certidões e títulos
+dominiais, nos termos da Lei Estadual nº 4.584, de 8 de outubro de 1975, e do Decreto
+Estadual nº 1.190, de 20 de outubro de 2020;
+CONSIDERANDO a competência do ITERPA de atestar a autenticidade dominial e a
+correspondência de localização de imóveis rurais, por meio de análise de cadeia
+dominial, georreferenciamento e demais instrumentos de regularização fundiária, nos
+termos da Instrução Normativa ITERPA nº 001/2022;
+CONSIDERANDO a competência do IDEFLOR-Bio para gestão das Unidades de
+Conservação Estaduais, administração das florestas públicas estaduais e execução de
+políticas de conservação da biodiversidade, nos termos da Lei Estadual nº 6.963, de 16
+de abril de 2007, e suas alterações pelas Leis Estaduais nº 8.096/2015, nº 8.633/2018
+e nº 11.028/2025;
+CONSIDERANDO as disposições do Código Florestal Federal (Lei Federal nº 12.651,
+de 25 de maio de 2012), em especial os artigos 44 a 50, que tratam da compensação
+de Reserva Legal em Unidades de Conservação;
+CONSIDERANDO a necessidade de ampliar e qualificar o patrimônio fundiário das
+Unidades de Conservação Estaduais do Pará mediante a incorporação de imóveis rurais
+privados;
+CONSIDERANDO os procedimentos estabelecidos pela Instrução Normativa do ICMBio
+nº 24, de 12 de agosto de 2025, que disciplina o recebimento de imóveis em Unidades
+de Conservação Federais, adaptados à estrutura e competência dos órgãos estaduais;
+CONSIDERANDO a necessidade de garantir segurança jurídica e eficiência
+administrativa no processo de incorporação de imóveis às Unidades de Conservação
+Estaduais, mediante procedimento sequencial com etapas de responsabilidade
+claramente definidas entre o ITERPA e o IDEFLOR-Bio;
+Página 1 de 13
+Processo: 2026/3017338 | Sequencial: 02 | Autenticação: 5e812122-fadc-4965-bfd2-d39645b5f231
+Acessado por: Samuel da Costa dos Santos (CPF: ***.811.612-**) em 03/08/2026 às 14:49 Página: 1/13
+--- PAGE 2 ---
+CONSIDERANDO a necessidade de promover a integração institucional e o uso racional
+dos recursos naturais do Estado do Pará, em consonância com os objetivos do
+desenvolvimento sustentável da Amazônia;
+RESOLVEM:
+CAPÍTULO I — DAS DISPOSIÇÕES GERAIS
+Art. 1º Esta Instrução Normativa Conjunta estabelece os procedimentos, os requisitos
+documentais e os fluxos institucionais para certificação fundiária pelo ITERPA e para
+habilitação, análise e recebimento de imóveis rurais em Unidades de Conservação
+Estaduais do Pará — UCES pelo IDEFLOR-Bio, nas modalidades de doação voluntária,
+doação antecipada, compensação de Reserva Legal, compensação florestal e
+cumprimento de medidas compensatórias ambientais.
+Art. 2º O procedimento previsto nesta Instrução Normativa observará as seguintes
+fases, de forma estritamente sequencial:
+I — Fase I: análise técnica e jurídica fundiária pelo ITERPA, com emissão de Certidão
+de Autenticidade, Correspondência de Localização e Localização Georreferenciada —
+CACLG;
+II — Fase II: análise de pertinência, compatibilidade e habilitação ambiental pelo
+IDEFLOR-Bio, com emissão de Certidão de Habilitação — CH;
+III — Fase III: transferência do domínio do imóvel ao Estado do Pará, mediante escritura
+pública de doação devidamente averbada na matrícula do imóvel a ser doado, com
+incorporação ao patrimônio da UCES sob gestão do IDEFLOR-Bio.
+Parágrafo único. O processo somente avançará à fase seguinte após a conclusão
+integral da fase anterior e a emissão do respectivo instrumento certificatório.
+Art. 3º Para os fins desta Instrução Normativa, considera-se:
+I — Unidade de Conservação Estadual (UCES): área protegida criada e administrada
+pelo Estado do Pará, sob gestão do IDEFLOR-Bio, nos termos da Lei Estadual nº
+6.963/2007, da Lei Federal nº 9.985/2000 e da Lei Estadual nº 10.306/2023;
+II — Imóvel Doador: imóvel rural privado, passível de incorporação ao patrimônio de
+UCES, mediante qualquer das modalidades previstas nesta Instrução Normativa;
+III — Doador: pessoa física ou jurídica, titular de domínio pleno sobre o imóvel objeto de
+doação ou compensação;
+IV — Beneficiário: pessoa física ou jurídica que utiliza imóvel localizado em UCES como
+instrumento de compensação de obrigações ambientais previstas em lei ou ato
+administrativo;
+V — Doador Beneficiário: aquele que doa imóvel a UCES e, simultaneamente, obtém
+crédito em hectares para compensação de obrigações ambientais;
+Página 2 de 13
+Processo: 2026/3017338 | Sequencial: 02 | Autenticação: 5e812122-fadc-4965-bfd2-d39645b5f231
+Acessado por: Samuel da Costa dos Santos (CPF: ***.811.612-**) em 03/08/2026 às 14:49 Página: 2/13
+--- PAGE 3 ---
+VI — Compensação de Reserva Legal: mecanismo previsto no art. 66, § 5º, do Código
+Florestal Federal, pelo qual o proprietário rural, impossibilitado de reconstituir a Reserva
+Legal em sua propriedade, doa área equivalente em UCES ou adquire Cota de Reserva
+Ambiental;
+VII — Compensação Florestal: instrumento pelo qual imóvel rural com cobertura florestal
+é transferido ao domínio público estadual em substituição a obrigações de recomposição
+ou proteção florestal;
+VIII — Medidas Compensatórias Ambientais: obrigações impostas por licença ambiental
+ou termo de compromisso ambiental, consistentes na proteção ou doação de áreas
+equivalentes às suprimidas ou degradadas;
+IX — Doação Antecipada: modalidade pela qual o Doador transfere imóvel à UCES
+antes do início do procedimento de licenciamento ou regularização ambiental, gerando
+crédito em hectares para compensação futura;
+X — Certidão de Autenticidade, Correspondência de Localização e Localização
+Georreferenciada (CACLG): documento expedido pelo ITERPA, atestando que o imóvel
+possui georreferenciamento válido e correspondência entre o título registrado e a
+localização geoespacial efetiva do imóvel, habilitando-o para prosseguimento ao
+IDEFLOR-Bio;
+XI — Certidão de Habilitação (CH): documento expedido pelo IDEFLOR-Bio, após
+conclusão da análise de pertinência e compatibilidade ambiental, atestando a
+elegibilidade do imóvel para incorporação em UCES determinada, com indicação da
+área habilitada em hectares para fins de compensação;
+XII — Georreferenciamento: levantamento planimétrico do imóvel rural realizado com
+base em sistema geodésico de referência, conforme padrão técnico do INCRA,
+georreferenciando os vértices do imóvel ao Sistema Geodésico Brasileiro;
+XIII — CAR: Cadastro Ambiental Rural, registro eletrônico obrigatório para imóveis
+rurais, instituído pelo art. 29 do Código Florestal Federal;
+XIV — SICAR: Sistema Nacional de Cadastro Ambiental Rural;
+XV — ART: Anotação de Responsabilidade Técnica, emitida pelo profissional habilitado
+responsável pelo georreferenciamento ou laudo técnico;
+XVI — ITERPA: Instituto de Terras do Pará, responsável pela regularização fundiária,
+gestão das terras públicas estaduais e emissão da Certidão de Autenticidade,
+Correspondência de Localização e Localização Georreferenciada;
+XVII — IDEFLOR-Bio: Instituto de Desenvolvimento Florestal e da Biodiversidade do
+Estado do Pará, responsável pela gestão das Unidades de Conservação Estaduais,
+pelas florestas públicas estaduais e pela emissão da Certidão de Habilitação.
+Página 3 de 13
+Processo: 2026/3017338 | Sequencial: 02 | Autenticação: 5e812122-fadc-4965-bfd2-d39645b5f231
+Acessado por: Samuel da Costa dos Santos (CPF: ***.811.612-**) em 03/08/2026 às 14:49 Página: 3/13
+--- PAGE 4 ---
+Art. 4º O processo de que trata esta Instrução Normativa observará os princípios da
+legalidade, moralidade, eficiência, publicidade, interesse público, segurança jurídica e
+proteção ao patrimônio ambiental do Estado do Pará.
+CAPÍTULO II — DAS MODALIDADES DE INCORPORAÇÃO
+Art. 5º São modalidades de incorporação de imóveis em UCES, para os fins desta
+Instrução Normativa:
+I — doação voluntária: transferência gratuita e definitiva, por iniciativa do Doador, sem
+vínculo com obrigação legal específica;
+II — doação antecipada: transferência gratuita, gerando crédito em hectares para
+compensação futura de obrigação ambiental;
+III — compensação de Reserva Legal: doação em UCES localizada no mesmo bioma
+da propriedade com supressão de Reserva Legal, nos termos do art. 66, § 5º, III, do
+Código Florestal Federal;
+IV — compensação florestal: transferência de imóvel com cobertura florestal em
+substituição a obrigação de recomposição, nos termos de legislação ou ato normativo
+específico;
+V — cumprimento de medidas compensatórias ambientais: transferência de imóvel para
+satisfação de condicionante ambiental prevista em licença, autorização ou termo de
+compromisso.
+§ 1º A compensação ambiental será realizada na proporção de 1 (um) hectare para cada
+1 (um) hectare da área a ser compensada, nos termos da legislação federal aplicável,
+observados, subsidiariamente, os critérios técnicos estabelecidos em ato conjunto do
+IDEFLOR-Bio e do ITERPA.
+§ 2º Na modalidade de doação antecipada, o crédito em hectares será formalizado pela
+Certidão de Habilitação e registrado em sistema informatizado próprio.
+Art. 6º São vedados à incorporação em UCES:
+I — imóveis com pendências na cadeia dominial não sanadas, incluindo sobreposição
+com áreas públicas federais, estaduais ou municipais não resolvidas;
+II — imóveis objeto de litígio judicial ou administrativo que comprometa a transmissão
+do domínio;
+III — imóveis com passivos ambientais consolidados que demandem obras ou ações de
+recuperação incompatíveis com os objetivos da UCES;
+IV — imóveis cujo com áreas de regularização fundiária de comunidades indígenas,
+quilombolas ou tradicionais;
+V — imóveis que não possuam CAR ativo e regular no SICAR;
+Página 4 de 13
+Processo: 2026/3017338 | Sequencial: 02 | Autenticação: 5e812122-fadc-4965-bfd2-d39645b5f231
+Acessado por: Samuel da Costa dos Santos (CPF: ***.811.612-**) em 03/08/2026 às 14:49 Página: 4/13
+--- PAGE 5 ---
+VI — imóveis com edificações ou estruturas incompatíveis com os objetivos da categoria
+de UCES receptora, salvo se objeto de plano de adequação aprovado pelo IDEFLOR-
+Bio.
+Parágrafo único: As restrições dos incisos I e II poderão ser superadas mediante
+apresentação de sentença transitada em julgado ou decisão administrativa definitiva
+que regularize a situação.
+CAPÍTULO III — DA FASE I — ANÁLISE FUNDIÁRIA PELO ITERPA E
+EMISSÃO DA CACLG
+Seção I — Do Protocolo e da Instrução do Processo
+Art. 7º A Fase I terá início mediante requerimento do interessado protocolado
+diretamente no ITERPA, observando-se, no que couber, o procedimento de expedição
+da Certidão de Autenticidade, Correspondência de Localização e Localização
+Georreferenciada — CACLG previsto pela legislação vigente, com as adaptações
+estabelecidas nesta Instrução Normativa Conjunta.
+§ 1º O requerimento eletrônico de emissão da Certidão de Autenticidade,
+Correspondência de Localização e Localização Georreferenciada — CACLG será
+formalizado no módulo “Pedido de Certidão” da plataforma SICARF, por meio do
+endereço eletrônico https://sicarf.pa.gov.br, devendo o requerente especificar
+expressamente que o pedido se destina à obtenção de CACLG para fins desta Instrução
+Normativa.
+2° O requerimento poderá ser apresentado por meio físico, se houver autorização do
+órgão fundiário.
+§ 3º O interessado deverá indicar, no requerimento, a UCES de interesse e a
+modalidade de incorporação pretendida.
+§ 4º Caso o interessado não indique a modalidade de incorporação pretendida, ficará
+subentendido que a incorporação ocorrerá para fins de doação antecipada.
+§ 5º A CACLG poderá ser requerida com ou sem vinculação a processo de
+compensação ambiental em curso, sendo, neste último caso, instrumento autônomo
+com validade para negociação ou apresentação a órgãos públicos e privados, nos
+termos da legislação aplicável e da normativa própria do ITERPA.
+Art. 8º O requerimento será instruído com a documentação exigida pela legislação
+vigente, sem prejuízo da apresentação dos seguintes elementos específicos para os fins
+desta Instrução Normativa Conjunta:
+I — indicação da UCES de interesse;
+II — indicação da modalidade de incorporação pretendida;
+Página 5 de 13
+Processo: 2026/3017338 | Sequencial: 02 | Autenticação: 5e812122-fadc-4965-bfd2-d39645b5f231
+Acessado por: Samuel da Costa dos Santos (CPF: ***.811.612-**) em 03/08/2026 às 14:49 Página: 5/13
+--- PAGE 6 ---
+III — extrato atualizado do CAR do imóvel no SICAR.
+Parágrafo único. O ITERPA poderá exigir documentação complementar prevista em sua
+normativa específica ou considerada necessária à adequada instrução fundiária do
+processo.
+Art. 9º A análise formal da documentação, a análise técnica do georreferenciamento e
+a análise jurídica da cadeia dominial observarão as competências, rotinas e exigências
+previstas na legislação em vigor, cabendo ao ITERPA verificar, adicionalmente, para os
+fins desta Instrução Normativa Conjunta:
+I — a correspondência entre a localização geoespacial efetiva do imóvel e a UCES
+indicada pelo interessado, com base em cartografia oficial;
+II — a inexistência de óbices fundiários que inviabilizem a futura transferência do
+domínio ao Estado do Pará;
+III — a necessidade de ratificação, retificação ou outro procedimento de regularização
+dominial, nos termos da legislação e da normativa específica do ITERPA.
+Art. 10. Concluídas as análises previstas na normativa própria do ITERPA e sendo o
+caso de prosseguimento, o Diretor-Presidente do ITERPA determinará a emissão da
+CACLG, que deverá conter, além dos elementos exigidos pela legislação, menção
+expressa de que o imóvel está habilitado, sob o aspecto fundiário, ao prosseguimento
+da Fase II perante o IDEFLOR-Bio.
+§ 1º Durante a Fase I, o ITERPA poderá antecipar a análise técnicas previstas nos
+artigos 12 e 13, se possível, remetendo os dados e subsídios técnicos analisados ao
+IDEFLOR-Bio para avaliação e utilização, querendo.
+§ 2º Emitida a CACLG, o ITERPA remeterá o processo ao IDEFLOR-Bio para início da
+Fase II, acompanhado da certidão e das peças técnicas e jurídicas pertinentes,
+comunicando o requerente.
+CAPÍTULO IV — DA FASE II — ANÁLISE DE PERTINÊNCIA E
+HABILITAÇÃO PELO IDEFLOR-Bio E EMISSÃO DA CERTIDÃO DE
+HABILITAÇÃO
+Seção I — Do Recebimento e Distribuição Interna do Processo
+Art. 11. Recebido o processo oriundo do ITERPA, acompanhado da Certidão de
+Autenticidade, Correspondência de Localização e Localização Georreferenciada —
+CACLG, a Presidência do IDEFLOR-Bio determinará a autuação e distribuição interna
+às unidades competentes, observado o seguinte fluxo sequencial:
+I — Núcleo de Geotecnologias (NGEO): verificação de sobreposição do imóvel na UCES
+e demais análises de sensoriamento remoto, emitindo parecer conclusivo que aborde a
+suficiência do monitoramento remoto ou a necessidade de vistoria em campo;
+Página 6 de 13
+Processo: 2026/3017338 | Sequencial: 02 | Autenticação: 5e812122-fadc-4965-bfd2-d39645b5f231
+Acessado por: Samuel da Costa dos Santos (CPF: ***.811.612-**) em 03/08/2026 às 14:49 Página: 6/13
+--- PAGE 7 ---
+II — Diretoria de Gestão e Monitoramento de Unidades de Conservação (DGMUC):
+análise de pertinência da incorporação à UCES indicada e elaboração de relatório
+técnico;
+III — Procuradoria Jurídica do IDEFLOR-Bio: análise jurídica da documentação e da
+regularidade do processo;
+IV — Presidência do IDEFLOR-Bio: deliberação final e determinação de emissão ou
+denegação da Certidão de Habilitação.
+Parágrafo único. O processo será encaminhado às unidades na ordem indicada nos
+incisos I a IV, somente avançando para a etapa seguinte após a conclusão da análise
+anterior.
+Seção II — Da Análise pelo Núcleo de Geotecnologias
+Art. 12. O Núcleo de Geotecnologias analisará a pertinência da incorporação do imóvel
+à UCES indicada, devendo:
+I — confirmar a localização e os limites do imóvel, confrontando-os com o
+georreferenciamento certificado pelo ITERPA;
+II — verificar a cobertura vegetal, o estado de conservação, os cursos d’água, as
+nascentes e demais atributos ambientais do imóvel, com base em imagens de satélite
+e bases cartográficas oficiais;
+III — identificar, na extensão verificável pelas imagens disponíveis, a existência de
+edificações, benfeitorias, estradas, infraestrutura ou qualquer intervenção humana no
+imóvel;
+IV — verificar a existência de passivos ambientais indicados por supressão de
+vegetação nativa, degradação de Áreas de Preservação Permanente ou outros indícios
+de degradação ambiental observáveis por sensoriamento remoto;
+V — avaliar a compatibilidade das condições encontradas com os objetivos de
+conservação da UCES receptora;
+VI — elaborar relatório técnico com proposta fundamentada de recomendação ou não
+recomendação do recebimento do imóvel;
+VII — informar quanto à existência de sobreposição com o plano de gestão da unidade
+e quanto à aptidão da área para a modalidade de compensação florestal (reposição
+florestal), mediante indicação de manifestação favorável ou desfavorável.
+Parágrafo único. Emitido o relatório técnico pelo NGEO, este integrará o processo e será
+encaminhado à DGMUC, podendo ser disponibilizado ao requerente mediante
+solicitação.
+Seção III — Da Checagem e Monitoramento Remoto pela DGMUC
+Página 7 de 13
+Processo: 2026/3017338 | Sequencial: 02 | Autenticação: 5e812122-fadc-4965-bfd2-d39645b5f231
+Acessado por: Samuel da Costa dos Santos (CPF: ***.811.612-**) em 03/08/2026 às 14:49 Página: 7/13
+--- PAGE 8 ---
+Art. 13. A DGMUC analisará a pertinência da incorporação do imóvel à UCES indicada,
+examinando:
+I — se o imóvel se encontra integralmente ou parcialmente inserido nos limites da UCES
+indicada pelo requerente;
+II — as características físicas e ocupações presentes no imóvel, e a sua compatibilidade
+com a categoria de manejo da UCES receptora, nos termos da Lei Federal nº
+9.985/2000, da Lei Estadual nº 10.306/2023 e do respectivo Plano de Gestão, quando
+existente;
+III — a importância estratégica do imóvel para a consolidação e a ampliação territorial
+da UCES, considerando sua posição geográfica em relação ao perímetro e às zonas de
+amortecimento;
+IV — a existência de corredores ecológicos, áreas de alta sensibilidade ou
+remanescentes florestais significativos que justifiquem a priorização do imóvel;
+V — a conformidade da incorporação com o Plano de Gestão da UCES receptora ou,
+na ausência deste, com os objetivos gerais da categoria de manejo.
+§ 1º A DGMUC emitirá nota técnica fundamentada concluindo pela pertinência ou pela
+impertinência da incorporação.
+§ 2º Em caso de impertinência, o processo será encaminhado à Presidência para
+decisão, com notificação ao requerente.
+Seção IV — Da Análise Jurídica pela Procuradoria do IDEFLOR-Bio
+Art. 14. Após as análises técnicas, o processo será encaminhado à Procuradoria
+Jurídica do IDEFLOR-Bio para análise jurídica, que abrangerá:
+I — a regularidade formal do processo, verificando o cumprimento das etapas e prazos
+previstos nesta Instrução Normativa;
+II — a validade e a suficiência da Certidão de Autenticidade, Correspondência de
+Localização e Localização Georreferenciada — CACLG emitida pelo ITERPA para os
+fins desta Instrução Normativa;
+III — a verificação da adequação da modalidade de incorporação indicada pelo
+requerente à legislação aplicável;
+IV — a análise de eventuais condicionantes ou ressalvas apontadas pelas demais
+unidades, quanto à sua legalidade e à possibilidade de inclusão na Certidão de
+Habilitação e na escritura de doação;
+V — a verificação da competência do Estado do Pará para receber o imóvel na UCES
+indicada, conforme os atos de criação e os limites da unidade;
+VI — a elaboração de minuta de despacho de deferimento ou indeferimento a ser
+submetida à Presidência.
+Página 8 de 13
+Processo: 2026/3017338 | Sequencial: 02 | Autenticação: 5e812122-fadc-4965-bfd2-d39645b5f231
+Acessado por: Samuel da Costa dos Santos (CPF: ***.811.612-**) em 03/08/2026 às 14:49 Página: 8/13
+--- PAGE 9 ---
+Parágrafo único. Em caso de identificação de irregularidade sanável, a Procuradoria
+indicará ao Presidente as providências cabíveis antes da decisão final.
+Seção V — Da Deliberação da Presidência e da Emissão da Certidão de
+Habilitação
+Art. 15. Concluídas as análises de todas as unidades, o processo será submetido ao
+Diretor-Presidente do IDEFLOR-Bio para deliberação final.
+§ 1º O Diretor-Presidente deliberará com base no conjunto de manifestações técnicas e
+jurídicas, podendo:
+a) deferir a emissão da Certidão de Habilitação, com ou sem condicionantes;
+b) indeferir fundamentadamente, com indicação das razões técnicas ou jurídicas;
+c) determinar a realização de diligências complementares, com prazo específico.
+§ 2º O despacho de indeferimento será motivado e comunicado ao requerente e ao
+ITERPA.
+§ 3º Da decisão de indeferimento caberá recurso administrativo ao Diretor-Presidente
+do IDEFLOR-Bio no prazo de 15 (quinze) dias úteis, que o apreciará ouvindo o Diretor-
+Presidente do ITERPA quando a questão envolver aspectos fundiários.
+Art. 16. A Certidão de Habilitação — CH, emitida pelo IDEFLOR-Bio, conterá, no
+mínimo:
+I — identificação completa do imóvel, com número da matrícula, município, coordenadas
+geográficas e área total em hectares;
+II — referência à Certidão de Autenticidade, Correspondência de Localização e
+Localização Georreferenciada — CACLG emitida pelo ITERPA, com número e data;
+III — identificação do Doador ou Doador Beneficiário;
+IV — UCES receptora, categoria de manejo e zona de inserção;
+V — área habilitada em hectares para fins de compensação, quando diferente da área
+total do imóvel;
+VI — modalidade de incorporação;
+VII — condicionantes técnicas ou ambientais para a Fase III, quando houver;
+VIII — prazo de validade de 2 (dois) anos, contados da data de emissão, prorrogáveis
+uma vez por igual período, mediante requerimento fundamentado;
+IX — declaração de que a CH é condição necessária para o início da Fase III.
+Parágrafo único. A Certidão de Habilitação será entregue ao interessado, e o processo
+seguirá para as etapas de arrecadação e matrícula da área em nome do Estado do Pará,
+nos termos da Fase III desta Instrução Normativa.
+Página 9 de 13
+Processo: 2026/3017338 | Sequencial: 02 | Autenticação: 5e812122-fadc-4965-bfd2-d39645b5f231
+Acessado por: Samuel da Costa dos Santos (CPF: ***.811.612-**) em 03/08/2026 às 14:49 Página: 9/13
+--- PAGE 10 ---
+Art. 17. A Certidão de Habilitação poderá ser utilizada pelo Doador para fins de
+negociação com terceiros, antecipação de compensação ou apresentação em
+processos de licenciamento ambiental, nos termos da legislação aplicável.
+CAPÍTULO V — DA FASE III — TRANSFERÊNCIA DO DOMÍNIO
+Art. 18. A Fase III terá início após a emissão da Certidão de Habilitação pelo IDEFLOR-
+Bio, mediante requerimento do Doador ao IDEFLOR-Bio, solicitando a adoção das
+providências para lavratura da escritura pública de doação.
+Parágrafo único. O IDEFLOR-Bio encaminhará o requerimento ao ITERPA, que
+coordenará os procedimentos cartoriais da Fase III.
+Art. 19. O ITERPA adotará as seguintes providências para a lavratura da escritura:
+I — verificação da validade dos documentos constantes do processo, solicitando a
+atualização dos vencidos;
+II — elaboração de minuta de escritura pública de doação, com cláusulas de aceitação
+em favor do Estado do Pará, representado pelo ITERPA, e destinação imediata do
+imóvel à UCES receptora sob gestão do IDEFLOR-Bio;
+III — inclusão, na minuta, das condicionantes técnicas e ambientais definidas pelo
+IDEFLOR-Bio na Certidão de Habilitação;
+IV — agendamento da lavratura da escritura em Cartório de Notas competente.
+Art. 20. A escritura pública de doação conterá, obrigatoriamente:
+I — qualificação completa das partes;
+II — descrição detalhada do imóvel, conforme georreferenciamento aprovado;
+III — declaração de que o imóvel está livre e desembaraçado de quaisquer ônus, dívidas
+ou litígios;
+IV — aceite expresso do Estado do Pará, representado pelo ITERPA;
+V — cláusula de destinação do imóvel à UCES receptora, sob gestão do IDEFLOR-Bio;
+VI — modalidade de doação e, se aplicável, os créditos de compensação gerados;
+VII — transcrição das condicionantes constantes da Certidão de Habilitação;
+VIII — declaração de que as eventuais ocupações tradicionais existentes serão objeto
+de Termo de Acordo entre o IDEFLOR-Bio e os ocupantes.
+Art. 21. Lavrada a escritura pública, o ITERPA providenciará o seu registro no Cartório
+de Registro de Imóveis competente em até 30 (trinta) dias corridos, incorporando o
+imóvel ao patrimônio do Estado do Pará com destinação à UCES.
+Página 10 de 13
+Processo: 2026/3017338 | Sequencial: 02 | Autenticação: 5e812122-fadc-4965-bfd2-d39645b5f231
+Acessado por: Samuel da Costa dos Santos (CPF: ***.811.612-**) em 03/08/2026 às 14:49 Página: 10/13
+--- PAGE 11 ---
+§ 1º As despesas cartoriais com a lavratura da escritura e o registro imobiliário serão de
+responsabilidade do Doador, salvo decisão em contrário dos Diretores-Presidentes do
+ITERPA e do IDEFLOR-Bio, fundamentada em interesse público.
+§ 2º O ITERPA comunicará ao IDEFLOR-Bio o registro do imóvel, para fins de
+incorporação ao patrimônio da UCES e atualização do Cadastro Nacional de Unidades
+de Conservação — CNUC.
+Art. 22. Concluído o registro, o IDEFLOR-Bio emitirá Certidão de Conclusão de
+Incorporação, contendo:
+I — número de matrícula da nova propriedade estadual;
+II — área incorporada em hectares;
+III — UCES receptora;
+IV — modalidade de incorporação;
+V — créditos de compensação gerados, se aplicável, com registro em sistema
+informatizado do IDEFLOR-Bio.
+CAPÍTULO VI — DOS PROCEDIMENTOS DE REGULARIZAÇÃO DOMINIAL
+NO ÂMBITO DO ITERPA
+Art. 23. Quando o georreferenciamento revelar divergência entre a área constante do
+título dominial e a área efetivamente levantada, bem como em qualquer outra hipótese
+de inconsistência registral ou dominial relevante à emissão da CACLG, o ITERPA
+adotará os procedimentos de ratificação, retificação ou demais medidas de
+regularização fundiária cabíveis, na forma do Decreto Estadual nº 1.190/2020, como
+condição prévia à emissão da certidão, quando necessária a adequação do registro ou
+da cadeia dominial.
+Parágrafo único. Os critérios de cabimento, a instrução, a competência decisória e os
+efeitos dos procedimentos referidos no caput observarão a normativa própria do
+ITERPA, sem prejuízo da comunicação ao interessado quanto ao sobrestamento do
+fluxo desta Instrução Normativa Conjunta até a superação do óbice fundiário.
+CAPÍTULO VII — DAS OCUPAÇÕES E BENFEITORIAS EXISTENTES
+Art. 24. A existência de ocupações humanas no imóvel, de caráter tradicional,
+identificadas durante a checagem do NGEO ou da DGMUC, será objeto de avaliação
+específica pelo IDEFLOR-Bio.
+§ 1º O levantamento considerará a categoria de manejo da UCES receptora e a
+compatibilidade das atividades dos ocupantes com os objetivos de conservação.
+Página 11 de 13
+Processo: 2026/3017338 | Sequencial: 02 | Autenticação: 5e812122-fadc-4965-bfd2-d39645b5f231
+Acessado por: Samuel da Costa dos Santos (CPF: ***.811.612-**) em 03/08/2026 às 14:49 Página: 11/13
+--- PAGE 12 ---
+§ 2º Identificadas ocupações compatíveis, o IDEFLOR-Bio elaborará Termo de Acordo
+com os ocupantes, regulamentando o uso e a permanência na área, antes da lavratura
+da escritura.
+§ 3º Identificadas ocupações incompatíveis, o IDEFLOR-Bio elaborará plano de
+adequação antes da lavratura da escritura.
+Art. 25. Benfeitorias e edificações existentes no imóvel serão avaliadas pelo IDEFLOR-
+Bio quanto à compatibilidade com os objetivos da UCES, no prazo de 2 (dois) anos,
+prorrogáveis uma vez por igual período, mediante requerimento fundamentado.
+§ 1º As benfeitorias compatíveis poderão ser mantidas, mediante cláusula específica na
+escritura de doação.
+§ 2º As benfeitorias incompatíveis deverão ser removidas pelo Doador antes da
+lavratura da escritura, salvo anuência do IDEFLOR-Bio para remoção posterior, com
+prazo e condições definidos em Termo de Compromisso.
+CAPÍTULO VIII — DA GESTÃO DOS CRÉDITOS DE COMPENSAÇÃO
+Art. 26. O IDEFLOR-Bio manterá sistema informatizado de registro e controle dos
+créditos de compensação gerados pela incorporação de imóveis em UCES, contendo,
+no mínimo:
+I — identificação do Doador Beneficiário;
+II — imóvel incorporado, com matrícula e área em hectares;
+III — modalidade de compensação;
+IV — crédito em hectares disponível para compensação;
+V — histórico de utilização dos créditos;
+VI — data de vencimento, se aplicável.
+Art. 27. Os créditos de compensação florestal gerados poderão ser utilizados pelo
+Doador Beneficiário perante:
+I — a Secretaria de Estado de Meio Ambiente e Sustentabilidade — SEMAS, para fins
+de regularização ambiental;
+II — outros órgãos competentes, nos termos da legislação aplicável.
+§ 1º O IDEFLOR-Bio expedirá certidão individualizada dos créditos disponíveis, quando
+solicitado pelo Doador Beneficiário ou pelo órgão competente.
+§ 2º A utilização dos créditos será registrada no sistema informatizado, com imediata
+redução do saldo disponível.
+CAPÍTULO IX — DOS RECURSOS E DO CONTROLE INSTITUCIONAL
+Página 12 de 13
+Processo: 2026/3017338 | Sequencial: 02 | Autenticação: 5e812122-fadc-4965-bfd2-d39645b5f231
+Acessado por: Samuel da Costa dos Santos (CPF: ***.811.612-**) em 03/08/2026 às 14:49 Página: 12/13
+--- PAGE 13 ---
+Art. 28. Das decisões proferidas no âmbito desta Instrução Normativa caberá recurso
+administrativo no prazo de 15 (quinze) dias úteis contados da ciência do interessado,
+dirigido ao Diretor-Presidente do órgão responsável pelo ato impugnado.
+§ 1º O recurso terá efeito suspensivo, salvo se o Diretor-Presidente,
+fundamentadamente, entender pelo prosseguimento do processo no interesse público.
+§ 2º Decisões que envolvam competências compartilhadas serão apreciadas
+conjuntamente pelos Diretores-Presidentes do ITERPA e do IDEFLOR-Bio.
+Art. 29. Os órgãos poderão celebrar Acordo de Cooperação Técnica para disciplinar o
+compartilhamento de sistemas informatizados, bases cartográficas e outros recursos
+necessários à execução desta Instrução Normativa.
+CAPÍTULO X — DAS DISPOSIÇÕES FINAIS E TRANSITÓRIAS
+Art. 30. O ITERPA e o IDEFLOR-Bio poderão publicar atos normativos complementares
+para regulamentar aspectos operacionais desta Instrução Normativa, inclusive modelos
+de requerimentos, certidões, escrituras e termos.
+Art. 31. Os processos em curso à época da publicação desta Instrução Normativa serão
+adequados aos seus procedimentos no que couber, preservando-se os atos já
+praticados.
+Art. 32. As omissões desta Instrução Normativa serão supridas por decisão conjunta
+dos Diretores-Presidentes do ITERPA e do IDEFLOR-Bio, observada a legislação
+aplicável.
+Art. 33. Esta Instrução Normativa entra em vigor na data de sua publicação no Diário
+Oficial do Estado do Pará.
+Belém, 30 de junho de 2026.
+BRUNO YOHEIJI KONO RAMOS
+Presidente do ITERPA — Instituto de Terras do Pará
+NILSON PINTO
+Presidente do IDEFLOR-Bio — Instituto de Desenvolvimento Florestal e da
+Biodiversidade do Estado do Pará
+Página 13 de 13
+Processo: 2026/3017338 | Sequencial: 02 | Autenticação: 5e812122-fadc-4965-bfd2-d39645b5f231
+Acessado por: Samuel da Costa dos Santos (CPF: ***.811.612-**) em 03/08/2026 às 14:49 Página: 13/13
+--- PAGE 14 ---
+ASSINATURAS
+Número do Protocolo: 2026/3017338
+Anexo/Sequencial: 2
+Este documento foi assinado eletronicamente na forma do Art. 6º do Decreto Estadual Nº 2.176, de
+12/09/2018.
+Assinatura(s) do Documento:
+Assinado eletronicamente por: Fernanda Jorge Sequeira,
+CPF: ***.070.362-**
+Em: 02/07/2026 16:00:17
+Aut. Assinatura: 80e36521f2b5b4f6f9dad2fa67a939f05ae0721e22b9a56db42292b8da1f763e
+Identificador de autenticação: 5e812122-fadc-4965-bfd2-d39645b5f231
+Confira a autenticidade deste documento em
+https://www.sistemas.pa.gov.br/validacao-protocolo
