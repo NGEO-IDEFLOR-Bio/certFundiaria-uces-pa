@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificação Fundiária ITERPA / IDEFLOR-Bio — Apresentação Executiva</title>
+    <meta name="description" content="Apresentação Executiva do Sistema de Certificação Fundiária, Habilitação e Incorporação de Imóveis Rurais em Unidades de Conservação Estaduais (IN Conjunta ITERPA/IDEFLOR-Bio 2026).">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"IBM Plex Sans"', 'sans-serif'],
+                        mono: ['"JetBrains Mono"', 'monospace'],
+                    },
+                    colors: {
+                        govNavy: '#041E42',
+                        govGreen: '#005A36',
+                        govGold: '#C59B27',
+                        govDark: '#0B131F',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        :root {
+            --stack-top: 80px;
+        }
+
+        body {
+            background-color: #070D14;
+            color: #E2E8F0;
+            font-family: 'IBM Plex Sans', sans-serif;
+            overflow-x: hidden;
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #070D14;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #1E293B;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #334155;
+        }
+
+        /* Hero Background */
+        .hero-bg {
+            background: radial-gradient(ellipse at 50% 20%, #0c2340 0%, #070D14 75%);
+        }
+
+        /* Drawer Folder Container */
+        .drawer-container {
+            max-width: 1280px;
+            width: 95%;
+            margin: 0 auto;
+            position: relative;
+            padding-bottom: 25vh;
+        }
+
+        .folder {
+            position: sticky;
+            min-height: 580px;
+            max-height: 88vh;
+            background: transparent;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            filter: drop-shadow(0 -15px 35px rgba(0, 0, 0, 0.85));
+            transition: top 0.4s cubic-bezier(0.16, 1, 0.3, 1), transform 0.3s ease;
+        }
+
+        /* Folder Stacking Top Positions & Theme Colors */
+        .folder:nth-child(1) { top: calc(var(--stack-top) + 0px); z-index: 1; --folder-theme: #0A2540; --tab-accent: #38BDF8; }
+        .folder:nth-child(2) { top: calc(var(--stack-top) + 48px); z-index: 2; --folder-theme: #04382C; --tab-accent: #34D399; }
+        .folder:nth-child(3) { top: calc(var(--stack-top) + 96px); z-index: 3; --folder-theme: #451A03; --tab-accent: #FB923C; }
+        .folder:nth-child(4) { top: calc(var(--stack-top) + 144px); z-index: 4; --folder-theme: #1E1B4B; --tab-accent: #A78BFA; }
+        .folder:nth-child(5) { top: calc(var(--stack-top) + 192px); z-index: 5; --folder-theme: #064E3B; --tab-accent: #4ADE80; }
+        .folder:nth-child(6) { top: calc(var(--stack-top) + 240px); z-index: 6; --folder-theme: #1E293B; --tab-accent: #FBBF24; }
+
+        .drawer-container.collapsed .folder {
+            top: var(--stack-top) !important;
+        }
+
+        .folder-tab {
+            height: 48px;
+            min-width: 320px;
+            max-width: 100%;
+            padding: 0 28px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-weight: 700;
+            text-transform: uppercase;
+            font-size: 0.85rem;
+            letter-spacing: 0.08em;
+            border-radius: 12px 12px 0 0;
+            margin-bottom: -2px;
+            z-index: 2;
+            position: relative;
+            color: #FFFFFF;
+            background-color: var(--folder-theme);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            border-bottom: none;
+            box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.4);
+        }
+
+        .folder-tab-badge {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background-color: var(--tab-accent);
+            box-shadow: 0 0 10px var(--tab-accent);
+        }
+
+        .folder-body {
+            width: 100%;
+            background: #0F172A;
+            padding: 36px;
+            border-radius: 0 16px 16px 16px;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-top: 2px solid var(--tab-accent);
+            flex-grow: 1;
+            position: relative;
+            z-index: 1;
+            overflow-y: auto;
+            max-height: calc(88vh - 48px);
+            box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.4);
+        }
+
+        /* Legislative Text Style */
+        .law-quote {
+            background-color: #090E17;
+            border-left: 4px solid var(--tab-accent);
+            padding: 16px 20px;
+            font-family: 'IBM Plex Sans', serif;
+            font-size: 0.92rem;
+            line-height: 1.6;
+            color: #CBD5E1;
+            border-radius: 0 8px 8px 0;
+        }
+
+        /* Code Block Styling */
+        .code-container {
+            background-color: #070C14;
+            border: 1px solid #1E293B;
+            border-radius: 10px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.85rem;
+            line-height: 1.5;
+            color: #38BDF8;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- TOP EXECUTIVE HEADER -->
+    <header class="sticky top-0 z-50 bg-[#070D14]/90 backdrop-blur-md border-b border-slate-800 shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <div class="flex items-center space-x-4">
+                <img src="assets/img/logo_ideflor.png" alt="IDEFLOR-Bio" class="h-10 object-contain">
+                <div class="h-8 w-px bg-slate-700 hidden sm:block"></div>
+                <img src="assets/img/logo_governo_para.png" alt="Governo do Pará" class="h-9 object-contain hidden sm:block">
+                <div class="h-8 w-px bg-slate-700 hidden md:block"></div>
+                <img src="assets/img/logo_ngeo.png" alt="NGEO" class="h-8 object-contain hidden md:block">
+            </div>
+
+            <div class="hidden lg:flex items-center space-x-2 text-xs font-semibold tracking-wider text-slate-300 uppercase">
+                <span class="px-3 py-1 rounded-full bg-slate-800 border border-slate-700 text-amber-400">
+                    <i class="fa-solid fa-file-signature mr-1.5"></i> IN Conjunta ITERPA / IDEFLOR-Bio 2026
+                </span>
+                <span class="px-3 py-1 rounded-full bg-slate-800 border border-slate-700 text-emerald-400">
+                    <i class="fa-solid fa-building-columns mr-1.5"></i> Certificação Fundiária UCES
+                </span>
+            </div>
+
+            <div class="flex items-center space-x-3">
+                <span class="text-xs text-slate-400 hidden sm:inline">ITERPA + IDEFLOR-Bio</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero-bg py-16 lg:py-20 border-b border-slate-800 text-center relative overflow-hidden">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="inline-flex items-center space-x-2 bg-emerald-950/80 border border-emerald-500/30 px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-widest text-emerald-400 mb-6">
+                <i class="fa-solid fa-shield-halved"></i>
+                <span>Apresentação Executiva da Solução Fundiária & Ambiental</span>
+            </div>
+            
+            <h1 class="text-3xl sm:text-5xl font-extrabold tracking-tight text-white leading-tight mb-6">
+                CERTIFICAÇÃO FUNDIÁRIA UCES
+            </h1>
+            <h2 class="text-xl sm:text-2xl font-medium text-slate-300 max-w-3xl mx-auto mb-6">
+                Recepção e Habilitação de Imóveis Rurais em Unidades de Conservação do Pará
+            </h2>
+
+            <p class="text-base sm:text-lg text-slate-400 max-w-3xl mx-auto leading-relaxed mb-8">
+                Regulamentação conjunta entre o <strong class="text-slate-200">ITERPA</strong> (autenticidade e regularidade dominial) e o <strong class="text-slate-200">IDEFLOR-Bio</strong> (pertinência ecológica e gestão de UCs) para regularização, compensação e incorporação de terras públicas estaduais protegidas.
+            </p>
+
+            <!-- Executive Context Box -->
+            <div class="bg-slate-900/90 border border-slate-800 rounded-2xl p-6 text-left max-w-4xl mx-auto backdrop-blur-md shadow-2xl">
+                <div class="flex items-center justify-between border-b border-slate-800 pb-3 mb-4">
+                    <div class="flex items-center space-x-3">
+                        <i class="fa-solid fa-cubes text-emerald-400 text-lg"></i>
+                        <span class="text-xs font-bold uppercase tracking-wider text-slate-300">Arquitetura de Atuação Interinstitucional</span>
+                    </div>
+                    <span class="text-xs font-mono bg-emerald-950 text-emerald-300 px-2.5 py-1 rounded border border-emerald-800">IN Assinada (30/06/2026)</span>
+                </div>
+                <div class="grid md:grid-cols-4 gap-4 text-xs text-slate-300">
+                    <div>
+                        <span class="text-slate-500 block font-semibold uppercase">Fase I (ITERPA)</span>
+                        <strong class="text-slate-200">Emissão da CACLG</strong> (Domínio & Geo)
+                    </div>
+                    <div>
+                        <span class="text-slate-500 block font-semibold uppercase">Fase II (IDEFLOR-Bio)</span>
+                        <strong class="text-slate-200">Emissão da CH</strong> (Habilitação UC)
+                    </div>
+                    <div>
+                        <span class="text-slate-500 block font-semibold uppercase">Fase III (Conjunta)</span>
+                        <strong class="text-slate-200">Escritura & Conclusão</strong> (Incorporação)
+                    </div>
+                    <div>
+                        <span class="text-slate-500 block font-semibold uppercase">Base Normativa</span>
+                        <strong class="text-slate-200">Lei 12.651 / SNUC</strong> (Art. 66, §5º)
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4 text-xs font-semibold text-slate-400">
+                <span><i class="fa-solid fa-arrow-down-long text-emerald-400 mr-2 animate-bounce"></i> Role a página para explorar as pastas com os componentes do sistema</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- DRAWER FOLDERS STACK CONTAINER -->
+    <main class="py-12">
+        <div class="drawer-container" id="drawer">
+            
+            <!-- FOLDER 1: ARCABOUÇO NORMATIVO E IN 2026 -->
+            <div class="folder" id="pasta-normativa">
+                <div class="folder-tab">
+                    <span class="folder-tab-badge"></span>
+                    <span>I. ARCABOUÇO NORMATIVO & IN CONJUNTA 2026</span>
+                </div>
+                <div class="folder-body">
+                    <div class="flex flex-col lg:flex-row lg:items-center justify-between border-b border-slate-800 pb-4 mb-6 gap-4">
+                        <div>
+                            <span class="text-xs font-mono uppercase text-sky-400 tracking-wider">Instrução Normativa Conjunta ITERPA/IDEFLOR-Bio (30/06/2026)</span>
+                            <h2 class="text-2xl font-bold text-white mt-1">Fundamentação Legal & Modalidades de Incorporação</h2>
+                        </div>
+                    </div>
+
+                    <div class="grid lg:grid-cols-2 gap-6 mb-6">
+                        <div class="space-y-4">
+                            <h3 class="text-sm font-bold uppercase text-slate-300 tracking-wider flex items-center">
+                                <i class="fa-solid fa-gavel text-sky-400 mr-2"></i> As 5 Modalidades de Incorporação Regulamentadas
+                            </h3>
+                            <ul class="space-y-3 text-xs text-slate-300">
+                                <li class="bg-slate-900/80 p-3 rounded-lg border border-slate-800">
+                                    <strong class="text-sky-300 block mb-1">1. Doação Voluntária & Doação Antecipada</strong>
+                                    Transferência direta e não onerosa de domínio privado para o Estado do Pará para afetação em UCs.
+                                </li>
+                                <li class="bg-slate-900/80 p-3 rounded-lg border border-slate-800">
+                                    <strong class="text-sky-300 block mb-1">2. Compensação de Reserva Legal (CRL - Art. 66, §5º, III)</strong>
+                                    Regularização de passivo florestal mediante doação ao Poder Público de área localizada no mesmo bioma.
+                                </li>
+                                <li class="bg-slate-900/80 p-3 rounded-lg border border-slate-800">
+                                    <strong class="text-sky-300 block mb-1">3. Compensação Florestal & Medidas Compensatórias Ambientais</strong>
+                                    Cumprimento de condicionantes de licenciamento ambiental e compensação por supressão de vegetação.
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <h3 class="text-sm font-bold uppercase text-slate-300 tracking-wider mb-3 flex items-center">
+                                <i class="fa-solid fa-file-contract text-sky-400 mr-2"></i> Texto Oficial da IN Conjunta 2026
+                            </h3>
+                            <div class="law-quote space-y-3">
+                                <p class="font-semibold text-slate-200">
+                                    "INSTRUÇÃO NORMATIVA CONJUNTA ITERPA / IDEFLOR-BIO DE 30 DE JUNHO DE 2026
+                                </p>
+                                <p class="italic">
+                                    Regulamenta os procedimentos administrativos para a certificação fundiária, habilitação e recebimento de imóveis rurais em Unidades de Conservação Estaduais (UCES) do Estado do Pará."
+                                </p>
+                                <p class="text-xs text-slate-400 border-t border-slate-800 pt-2">
+                                    <strong>Art. 2º, Parágrafo único.</strong> Os procedimentos administrativos regulamentados por esta Instrução Normativa dar-se-ão mediante fluxo sequencial em três fases distintas.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FOLDER 2: FLUXO PROCESSUAL EM 3 FASES -->
+            <div class="folder" id="pasta-fluxo">
+                <div class="folder-tab">
+                    <span class="folder-tab-badge"></span>
+                    <span>II. FLUXO PROCESSUAL EM 3 FASES SEQUENCIAIS</span>
+                </div>
+                <div class="folder-body">
+                    <div class="flex flex-col lg:flex-row lg:items-center justify-between border-b border-slate-800 pb-4 mb-6 gap-4">
+                        <div>
+                            <span class="text-xs font-mono uppercase text-emerald-400 tracking-wider">Rito Administrativo de Análise e Certificação</span>
+                            <h2 class="text-2xl font-bold text-white mt-1">Segurança Jurídica com Etapas Sequenciais</h2>
+                        </div>
+                    </div>
+
+                    <div class="grid lg:grid-cols-3 gap-6 mb-6">
+                        <!-- Fase I -->
+                        <div class="bg-slate-900/90 p-5 rounded-xl border border-sky-500/30">
+                            <div class="w-10 h-10 bg-sky-950 text-sky-400 rounded-lg flex items-center justify-center text-lg font-bold mb-3">
+                                I
+                            </div>
+                            <h3 class="text-sm font-bold text-white mb-1">FASE I — Análise Dominial (ITERPA)</h3>
+                            <span class="text-[10px] text-sky-400 font-mono block mb-3">SLA Operacional: ~50 Dias Úteis</span>
+                            <p class="text-xs text-slate-300 leading-relaxed">
+                                Análise da cadeia dominial, autoria do registro de imóveis, validação do georreferenciamento e parecer da Procuradoria Jurídica do ITERPA. 
+                                <strong class="text-white block mt-2">Produto: CACLG (Certidão de Autenticidade e Localização)</strong>
+                            </p>
+                        </div>
+
+                        <!-- Fase II -->
+                        <div class="bg-slate-900/90 p-5 rounded-xl border border-emerald-500/30">
+                            <div class="w-10 h-10 bg-emerald-950 text-emerald-400 rounded-lg flex items-center justify-center text-lg font-bold mb-3">
+                                II
+                            </div>
+                            <h3 class="text-sm font-bold text-white mb-1">FASE II — Análise Ambiental (IDEFLOR-Bio)</h3>
+                            <span class="text-[10px] text-emerald-400 font-mono block mb-3">SLA Operacional: ~50 Dias Úteis</span>
+                            <p class="text-xs text-slate-300 leading-relaxed">
+                                Sensoriamento remoto (NGEO), análise de pertinência de conservação (DGMUC), parecer jurídico e deliberação da Presidência do IDEFLOR-Bio.
+                                <strong class="text-white block mt-2">Produto: CH (Certidão de Habilitação)</strong>
+                            </p>
+                        </div>
+
+                        <!-- Fase III -->
+                        <div class="bg-slate-900/90 p-5 rounded-xl border border-amber-500/30">
+                            <div class="w-10 h-10 bg-amber-950 text-amber-400 rounded-lg flex items-center justify-center text-lg font-bold mb-3">
+                                III
+                            </div>
+                            <h3 class="text-sm font-bold text-white mb-1">FASE III — Incorporação (ITERPA + IDEFLOR)</h3>
+                            <span class="text-[10px] text-amber-400 font-mono block mb-3">SLA Operacional: ~55 Dias Corridos</span>
+                            <p class="text-xs text-slate-300 leading-relaxed">
+                                Elaboração da minuta da escritura pública de doação, lavratura em cartório de notas, averbação no Cartório de Imóveis e encerramento.
+                                <strong class="text-white block mt-2">Produto: Certidão de Conclusão de Incorporação</strong>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FOLDER 3: REGRAS DE NEGÓCIO & VEDAÇÕES -->
+            <div class="folder" id="pasta-regras">
+                <div class="folder-tab">
+                    <span class="folder-tab-badge"></span>
+                    <span>III. REGRAS DE NEGÓCIO & VEDAÇÕES DE SEGURANÇA (46 RNs)</span>
+                </div>
+                <div class="folder-body">
+                    <div class="flex flex-col lg:flex-row lg:items-center justify-between border-b border-slate-800 pb-4 mb-6 gap-4">
+                        <div>
+                            <span class="text-xs font-mono uppercase text-orange-400 tracking-wider">Filtro Antifraude & Critérios de Inadmissibilidade</span>
+                            <h2 class="text-2xl font-bold text-white mt-1">Impedimentos e Vedações Absolutas (Art. 6º da IN)</h2>
+                        </div>
+                    </div>
+
+                    <div class="grid lg:grid-cols-2 gap-6">
+                        <!-- Impedimentos Absolutos -->
+                        <div class="bg-slate-900/90 p-5 rounded-xl border border-red-500/20">
+                            <div class="flex items-center space-x-2 text-red-400 font-bold text-sm uppercase mb-3">
+                                <i class="fa-solid fa-ban"></i>
+                                <span>Vedações e Inadmissibilidade Imediata</span>
+                            </div>
+                            <ul class="space-y-2 text-xs text-slate-300">
+                                <li class="flex items-start space-x-2">
+                                    <i class="fa-solid fa-xmark text-red-400 mt-0.5"></i>
+                                    <span><strong>Pendências Dominiais e Litígios:</strong> Ações de reintegração de posse, disputas judiciais ou cadeias cartograficamente nulas.</span>
+                                </li>
+                                <li class="flex items-start space-x-2">
+                                    <i class="fa-solid fa-xmark text-red-400 mt-0.5"></i>
+                                    <span><strong>Passivos Ambientais Não Compensáveis:</strong> Áreas com embargos não regularizados no CAR.</span>
+                                </li>
+                                <li class="flex items-start space-x-2">
+                                    <i class="fa-solid fa-xmark text-red-400 mt-0.5"></i>
+                                    <span><strong>Sobreposição Antropológica:</strong> Sobreposição com Terras Indígenas, Territórios Quilombolas ou Comunidades Tradicionais.</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Rito Recursal LEPA -->
+                        <div class="bg-slate-900/90 p-5 rounded-xl border border-slate-800">
+                            <div class="flex items-center space-x-2 text-amber-400 font-bold text-sm uppercase mb-3">
+                                <i class="fa-solid fa-scale-balanced"></i>
+                                <span>Garantia do Contraditório e Ampla Defesa</span>
+                            </div>
+                            <p class="text-xs text-slate-300 leading-relaxed mb-3">
+                                Em caso de indeferimento fundamentado em qualquer das fases, o requerente possui o prazo de <strong class="text-white">15 (quinze) dias úteis</strong> para interposição de recurso administrativo com efeito suspensivo, nos termos da Lei Estadual nº 8.972/2020 (LEPA).
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FOLDER 4: MODELO DE DADOS & REQUISITOS -->
+            <div class="folder" id="pasta-dados">
+                <div class="folder-tab">
+                    <span class="folder-tab-badge"></span>
+                    <span>IV. ARQUITETURA DO SISTEMA & MODELO DE DADOS (15+ ENTIDADES)</span>
+                </div>
+                <div class="folder-body">
+                    <div class="flex flex-col lg:flex-row lg:items-center justify-between border-b border-slate-800 pb-4 mb-6 gap-4">
+                        <div>
+                            <span class="text-xs font-mono uppercase text-purple-400 tracking-wider">Especificação do Software de Certificação</span>
+                            <h2 class="text-2xl font-bold text-white mt-1">43 Requisitos Funcionais & Modelagem Conceitual</h2>
+                        </div>
+                    </div>
+
+                    <div class="grid lg:grid-cols-2 gap-6 mb-6">
+                        <div class="space-y-3">
+                            <h4 class="text-xs font-bold uppercase text-purple-400 flex items-center">
+                                <i class="fa-solid fa-database mr-2"></i> Principais Entidades do Sistema
+                            </h4>
+                            <div class="grid grid-cols-2 gap-2 text-xs">
+                                <div class="bg-slate-900 p-2.5 rounded border border-slate-800">
+                                    <strong class="text-purple-300 block">REQUERIMENTO</strong>
+                                    <span class="text-[10px] text-slate-500">Dados do Requerente & Modalidade</span>
+                                </div>
+                                <div class="bg-slate-900 p-2.5 rounded border border-slate-800">
+                                    <strong class="text-purple-300 block">IMÓVEL_RURAL</strong>
+                                    <span class="text-[10px] text-slate-500">CAR, Matrícula & Geo</span>
+                                </div>
+                                <div class="bg-slate-900 p-2.5 rounded border border-slate-800">
+                                    <strong class="text-purple-300 block">CERTIDÃO_CACLG</strong>
+                                    <span class="text-[10px] text-slate-500">Autenticidade ITERPA</span>
+                                </div>
+                                <div class="bg-slate-900 p-2.5 rounded border border-slate-800">
+                                    <strong class="text-purple-300 block">CERTIDÃO_CH</strong>
+                                    <span class="text-[10px] text-slate-500">Habilitação IDEFLOR</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Schema Viewer -->
+                        <div>
+                            <div class="flex items-center justify-between bg-slate-900 px-4 py-2 rounded-t-lg border border-slate-800 border-b-0">
+                                <span class="text-xs font-mono text-purple-400">Estrutura JSON - Certidão de Habilitação (CH)</span>
+                                <span class="text-[10px] bg-slate-800 text-slate-400 px-2 py-0.5 rounded">Model Data</span>
+                            </div>
+                            <div class="code-container p-4 rounded-b-lg max-h-48 overflow-y-auto">
+<pre><code>{
+  <span class="text-emerald-400">"numero_ch"</span>: <span class="text-sky-300">"CH-IDEFLOR-2026/0012"</span>,
+  <span class="text-emerald-400">"unidade_conservacao"</span>: <span class="text-sky-300">"PESB - Parque Estadual de Monte Alegre"</span>,
+  <span class="text-emerald-400">"area_habilitada_ha"</span>: <span class="text-amber-400">450.8500</span>,
+  <span class="text-emerald-400">"modalidade"</span>: <span class="text-sky-300">"COMPENSACAO_RESERVA_LEGAL"</span>,
+  <span class="text-emerald-400">"parecer_ngeo_aprovado"</span>: <span class="text-sky-300">true</span>,
+  <span class="text-emerald-400">"data_validade"</span>: <span class="text-sky-300">"2028-06-30"</span>
+}</code></pre>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FOLDER 5: PRAZOS, SLAS E SENSORIAMENTO REMOTO -->
+            <div class="folder" id="pasta-prazos">
+                <div class="folder-tab">
+                    <span class="folder-tab-badge"></span>
+                    <span>V. PRAZOS, SLAS OPERACIONAIS & SENSORIAMENTO REMOTO (NGEO)</span>
+                </div>
+                <div class="folder-body">
+                    <div class="flex flex-col lg:flex-row lg:items-center justify-between border-b border-slate-800 pb-4 mb-6 gap-4">
+                        <div>
+                            <span class="text-xs font-mono uppercase text-emerald-400 tracking-wider">Gestão de Prazos e Monitoramento por Satélite</span>
+                            <h2 class="text-2xl font-bold text-white mt-1">Análise Espacial de Alta Precisão pelo NGEO</h2>
+                        </div>
+                    </div>
+
+                    <div class="grid lg:grid-cols-2 gap-6">
+                        <!-- Sensoriamento Remoto NGEO -->
+                        <div class="bg-slate-900/90 p-5 rounded-xl border border-slate-800">
+                            <div class="flex items-center space-x-2 text-emerald-400 font-bold text-sm uppercase mb-3">
+                                <i class="fa-solid fa-satellite-dish"></i>
+                                <span>Sensoriamento Remoto NGEO/IDEFLOR-Bio</span>
+                            </div>
+                            <p class="text-xs text-slate-300 leading-relaxed mb-3">
+                                Na Fase II, o Núcleo de Geotecnologias executa a análise de imagens de satélite e sobreposição espacial para verificar a ausência de desmatamento ilegal recente, uso do solo e integridade dos limites da Unidade de Conservação.
+                            </p>
+                        </div>
+
+                        <!-- Prazos Legais vs SLA -->
+                        <div class="bg-slate-900/90 p-5 rounded-xl border border-slate-800">
+                            <div class="flex items-center space-x-2 text-amber-400 font-bold text-sm uppercase mb-3">
+                                <i class="fa-solid fa-clock-rotate-left"></i>
+                                <span>Distinção entre Prazo Legal e Meta de SLA</span>
+                            </div>
+                            <p class="text-xs text-slate-300 leading-relaxed">
+                                A IN 2026 fixa os prazos de recurso (15 dias úteis) e etapas formais, enquanto a documentação técnica estipula metas internas de SLA operacional para garantir previsibilidade ao produtor e ao Estado.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FOLDER 6: AUDITORIA & PACOTE DE DOCUMENTOS DE PRODUTO -->
+            <div class="folder" id="pasta-auditoria">
+                <div class="folder-tab">
+                    <span class="folder-tab-badge"></span>
+                    <span>VI. RESULTADO DA AUDITORIA & ACERVO DE PRODUTOS</span>
+                </div>
+                <div class="folder-body">
+                    <div class="flex flex-col lg:flex-row lg:items-center justify-between border-b border-slate-800 pb-4 mb-6 gap-4">
+                        <div>
+                            <span class="text-xs font-mono uppercase text-amber-400 tracking-wider">Conclusão da Auditoria de 07/10/2026</span>
+                            <h2 class="text-2xl font-bold text-white mt-1">Saneamento Documental e Validação Normativa</h2>
+                        </div>
+                    </div>
+
+                    <div class="bg-slate-900/90 p-5 rounded-xl border border-slate-800 mb-4">
+                        <h3 class="text-xs font-bold text-amber-400 uppercase tracking-wider mb-2">Ações Concluídas na Auditoria Especializada</h3>
+                        <p class="text-xs text-slate-300 leading-relaxed">
+                            A duplicidade de minutas foi completamente resolvida: a IN assinada de 30/06/2026 foi promovida a documento canônico em <code class="text-amber-300">docs/00-in-original/</code>, enquanto a minuta V1 obsoleta foi arquivada em histórico. Todos os 7 documentos de requisitos, fluxos, regras de negócio e prazos foram harmonizados.
+                        </p>
+                    </div>
+
+                    <p class="text-xs text-slate-400 italic text-center">
+                        Explore abaixo o repositório de documentos de arquitetura, requisitos e especificações da Certificação Fundiária.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- CENTRAL DE DOCUMENTOS DO PROJETO & FOOTER -->
+    <footer class="bg-[#04080F] border-t border-slate-800 py-16 text-slate-400 text-xs">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-10">
+                <h3 class="text-lg font-bold text-white uppercase tracking-wider mb-2">Acervo de Documentação de Produto</h3>
+                <p class="text-slate-400">Especificações técnicas, modelo de dados, fluxogramas de processos e regras de negócio do sistema.</p>
+            </div>
+
+            <!-- Grid de Downloads/Documentos -->
+            <div class="grid md:grid-cols-4 lg:grid-cols-4 gap-4 mb-12">
+                <a href="docs/01-glossario/glossario.md" target="_blank" class="bg-slate-900 p-4 rounded-xl border border-slate-800 hover:border-sky-500/50 transition-all text-left block group">
+                    <i class="fa-solid fa-book text-sky-400 text-2xl mb-2 group-hover:scale-110 transition-transform"></i>
+                    <strong class="text-white block text-xs mb-1">1. Glossário Normativo</strong>
+                    <span class="text-[10px] text-slate-500 block">Termos e Definições da IN</span>
+                </a>
+
+                <a href="docs/02-requisitos/requisitos.md" target="_blank" class="bg-slate-900 p-4 rounded-xl border border-slate-800 hover:border-emerald-500/50 transition-all text-left block group">
+                    <i class="fa-solid fa-list-check text-emerald-400 text-2xl mb-2 group-hover:scale-110 transition-transform"></i>
+                    <strong class="text-white block text-xs mb-1">2. Requisitos do Sistema</strong>
+                    <span class="text-[10px] text-slate-500 block">43 RFs + 10 RNFs</span>
+                </a>
+
+                <a href="docs/03-fluxos/fluxos.md" target="_blank" class="bg-slate-900 p-4 rounded-xl border border-slate-800 hover:border-purple-500/50 transition-all text-left block group">
+                    <i class="fa-solid fa-diagram-project text-purple-400 text-2xl mb-2 group-hover:scale-110 transition-transform"></i>
+                    <strong class="text-white block text-xs mb-1">3. Fluxos e Processos</strong>
+                    <span class="text-[10px] text-slate-500 block">Diagramas Mermaid Fases I, II e III</span>
+                </a>
+
+                <a href="docs/04-regras-negocio/regras-negocio.md" target="_blank" class="bg-slate-900 p-4 rounded-xl border border-slate-800 hover:border-amber-500/50 transition-all text-left block group">
+                    <i class="fa-solid fa-scale-balanced text-amber-400 text-2xl mb-2 group-hover:scale-110 transition-transform"></i>
+                    <strong class="text-white block text-xs mb-1">4. Regras de Negócio</strong>
+                    <span class="text-[10px] text-slate-500 block">46 RNs & Impedimentos</span>
+                </a>
+
+                <a href="docs/05-modelo-dados/modelo-dados.md" target="_blank" class="bg-slate-900 p-4 rounded-xl border border-slate-800 hover:border-teal-500/50 transition-all text-left block group">
+                    <i class="fa-solid fa-database text-teal-400 text-2xl mb-2 group-hover:scale-110 transition-transform"></i>
+                    <strong class="text-white block text-xs mb-1">5. Modelo de Dados</strong>
+                    <span class="text-[10px] text-slate-500 block">15+ Entidades & Schemas</span>
+                </a>
+
+                <a href="docs/06-tasks/tasks.md" target="_blank" class="bg-slate-900 p-4 rounded-xl border border-slate-800 hover:border-indigo-500/50 transition-all text-left block group">
+                    <i class="fa-solid fa-tasks text-indigo-400 text-2xl mb-2 group-hover:scale-110 transition-transform"></i>
+                    <strong class="text-white block text-xs mb-1">6. Backlog & Épicos</strong>
+                    <span class="text-[10px] text-slate-500 block">7 Épicos & User Stories</span>
+                </a>
+
+                <a href="docs/07-prazos/prazos.md" target="_blank" class="bg-slate-900 p-4 rounded-xl border border-slate-800 hover:border-rose-500/50 transition-all text-left block group">
+                    <i class="fa-solid fa-calendar-days text-rose-400 text-2xl mb-2 group-hover:scale-110 transition-transform"></i>
+                    <strong class="text-white block text-xs mb-1">7. Quadro de Prazos</strong>
+                    <span class="text-[10px] text-slate-500 block">Gantt & SLAs Operacionais</span>
+                </a>
+
+                <a href="docs/08-auditoria/auditoria.md" target="_blank" class="bg-slate-900 p-4 rounded-xl border border-slate-800 hover:border-amber-400/50 transition-all text-left block group">
+                    <i class="fa-solid fa-clipboard-check text-amber-400 text-2xl mb-2 group-hover:scale-110 transition-transform"></i>
+                    <strong class="text-white block text-xs mb-1">8. Relatório de Auditoria</strong>
+                    <span class="text-[10px] text-slate-500 block">Análise Especializada 2026</span>
+                </a>
+            </div>
+
+            <div class="border-t border-slate-900 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
+                <div class="flex items-center space-x-3">
+                    <img src="assets/img/logo_ideflor.png" alt="IDEFLOR-Bio" class="h-6 object-contain opacity-70">
+                    <span class="text-slate-600">•</span>
+                    <span class="text-[11px] text-slate-500">Governo do Estado do Pará • ITERPA / IDEFLOR-Bio 2026</span>
+                </div>
+                <div class="text-[11px] text-slate-500">
+                    Desenvolvido pelo Núcleo de Geotecnologias (NGEO/IDEFLOR-Bio)
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- STACK SCROLL SCRIPT -->
+    <script>
+        const drawer = document.getElementById('drawer');
+        const folders = document.querySelectorAll('.folder');
+
+        function handleScroll() {
+            folders.forEach((folder, index) => {
+                const rect = folder.getBoundingClientRect();
+                if (rect.top <= (100 + index * 48) && rect.top > 50) {
+                    folder.style.transform = 'scale(1)';
+                } else if (rect.top < 50) {
+                    folder.style.transform = 'scale(0.98)';
+                } else {
+                    folder.style.transform = 'scale(1)';
+                }
+            });
+        }
+
+        window.addEventListener('scroll', handleScroll);
+        handleScroll();
+    </script>
+</body>
+</html>
